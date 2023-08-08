@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: backend-replicaset
+  labels:
+    app: backend-app
+    type: backend
+
+spec:
+  template:
+    metadata:
+      name: backend-pod
+      labels:
+        app: backend-app
+        type: backend
+    spec:
+      containers:
+      - name: mounttest
+        image: my-backend-test
+
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: backend-app

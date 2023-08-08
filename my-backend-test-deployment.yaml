@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose-resolved.yaml
+    kompose.version: 1.28.0 (c4137012e)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: my-backend-test
+  name: my-backend-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: my-backend-test
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f docker-compose-resolved.yaml
+        kompose.version: 1.28.0 (c4137012e)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/scanfile-default: "true"
+        io.kompose.service: my-backend-test
+    spec:
+      containers:
+        - image: my-backend-test
+          name: mounttest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 50051
+          resources: {}
+          volumeMounts:
+            - mountPath: /home/drossi/myTest/data
+              name: my-backend-test-claim0
+      restartPolicy: Always
+      volumes:
+        - name: my-backend-test-claim0
+          persistentVolumeClaim:
+            claimName: my-backend-test-claim0
+status: {}

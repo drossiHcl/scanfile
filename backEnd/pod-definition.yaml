@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend-pod
+  labels:
+    app: backend-app
+    type: backend
+spec:
+  containers:
+  - name: mounttest
+    image: my-backend-test
+    imagePullPolicy: Never

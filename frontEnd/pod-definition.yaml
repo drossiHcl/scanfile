@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend-pod
+  labels:
+    app: frontend-app
+    type: frontend
+spec:
+  containers:
+  - name: mounttest2
+    image: my-frontend-test

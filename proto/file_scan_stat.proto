@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package filescanstat;
+option go_package="scanfile.com/scanfile/proto";
+
+message TriggerBackend {
+    uint32 trigger =1;
+}
+message TriggerBackendRes {
+    uint32 trigger_res =1;
+}
+
+message Word {
+    string w = 1; // word
+    uint32 f = 2; // word frequency in a File
+}
+
+message File {
+    string path_name = 1;
+    string language  = 2;
+    uint32 num_words = 3;
+}
+
+message FilesStats {
+    File file = 1;
+    repeated Word words = 2;
+    repeated string list = 3;
+}
+
+message FsRequest {
+    string lang = 1;
+    uint32 num = 2;
+    string name = 3;
+    string list = 4;
+}
+
+service ScanStatService {
+    rpc GetFilesStats(FsRequest) returns (stream FilesStats) {};
+    rpc Process(TriggerBackend) returns (TriggerBackendRes) {};
+}

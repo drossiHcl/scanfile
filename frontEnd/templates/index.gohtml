@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/reqdata" method="post">
+<p> Welcome! type filter parameters (if desired) then press submit: </p>
+File Name: <input type="text" id="Namef" name="NameFile"><br>
+Language:  <input type="text" id="Lang" name="Language" ><br>
+Max Number of words:  <input type="number" id="Maxn" name="Maxnum" ><br>
+<input type="checkbox" id="listonly" name="listonly" value="listonly">
+<label for="listonly"> List files available</label><br><br>
+<input type="submit" value="submit">
+<input type="reset"><br>
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent in request to the backEnd. Results will be listed here".</p>
+
+</body>
+</html>
