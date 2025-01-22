@@ -14,16 +14,17 @@ var (
 
 	Env_timer_fsscan int
 
-	Env_data_dascartare_dir              string // const DATA_DASCARTARE_DIR = "/home/drossi/myTest/data/daScartare/"
-	Env_data_textfiles_name              string // const DATA_TEXTFILES_NAME = "/home/drossi/myTest/data/textFiles_"
-	Env_data_files_folder                string // const DATA_FILES_FOLDER = "/home/drossi/myTest/data/textFiles_input/"
-	Env_data_textfiles_ita_dir           string // const DATA_TEXTFILES_ITA_DIR = "/home/drossi/myTest/data/textFiles_ITA/"
-	Env_data_textfiles_eng_dir           string // const DATA_TEXTFILES_ENG_DIR = "/home/drossi/myTest/data/textFiles_ENG/"
+	Env_data_dascartare_dir              string // const DATA_DASCARTARE_DIR = "/home/daniele/Daniele/myData/scanfile/daScartare/"
+	Env_data_textfiles_name              string // const DATA_TEXTFILES_NAME = "/home/daniele/Daniele/myData/scanfile/textFiles_"
+	Env_data_files_folder                string // const DATA_FILES_FOLDER = "/home/daniele/Daniele/myData/scanfile/textFiles_input/"
+	
+	Env_data_textfiles_ita_dir           string // const DATA_TEXTFILES_ITA_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_ITA/"
+	Env_data_textfiles_eng_dir           string // const DATA_TEXTFILES_ENG_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_ENG/"
 	Env_name_filedascartare              string // const NAME_FILEDASCARTARE = "daScartare_"
-	Env_data_processed_textfiles_ita_dir string // const DATA_PROCESSED_TEXTFILES_ITA_DIR = "/home/drossi/myTest/data/textFiles_processed_ITA/"
-	Env_data_processed_textfiles_eng_dir string // const DATA_PROCESSED_TEXTFILES_ENG_DIR = "/home/drossi/myTest/data/textFiles_processed_ENG/"
-	Env_data_output_textfiles_ita_dir    string // const DATA_OUTPUT_TEXTFILES_ITA_DIR = "/home/drossi/myTest/data/textFiles_output_ITA/"
-	Env_data_output_textfiles_eng_dir    string // const DATA_OUTPUT_TEXTFILES_ENG_DIR = "/home/drossi/myTest/data/textFiles_output_ENG/"
+	Env_data_processed_textfiles_ita_dir string // const DATA_PROCESSED_TEXTFILES_ITA_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/"
+	Env_data_processed_textfiles_eng_dir string // const DATA_PROCESSED_TEXTFILES_ENG_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_processed_ENG/"
+	Env_data_output_textfiles_ita_dir    string // const DATA_OUTPUT_TEXTFILES_ITA_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/"
+	Env_data_output_textfiles_eng_dir    string // const DATA_OUTPUT_TEXTFILES_ENG_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_output_ENG/"
 )
 
 type FilesToRead_T struct {
@@ -58,3 +59,4 @@ var Languages = []lingua.Language{
 	lingua.English,
 	lingua.Italian,
 }
+

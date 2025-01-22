@@ -20,6 +20,7 @@ type WordsListsStats struct {
 
 func main() {
 
+	fmt.Printf("backEnd: Env_data_files_folder dddddddddddddddddir: %s \n", types.Env_data_files_folder)
 	if len(os.Args) != 1 {
 		fmt.Printf("No parameters expected. Ignored \n")
 	}
@@ -45,7 +46,8 @@ func main() {
 }
 
 func myInit() {
-	f, err := os.Create("/home/drossi/myTest/data/log_scanfile.log")
+	f, err := os.Create("/home/daniele/Daniele/scanfile/log/log_scanfile.log")
+	fmt.Printf("backEnd: Opened log file : %v \n", err)
 	types.FLog = f
 	if err != nil {
 		log.Fatalf("error opening file: %v", err)
@@ -56,7 +58,7 @@ func myInit() {
 	log.SetPrefix("BackEnd ")
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 
-	_ = util.LoadEnv("/home/drossi/myTest/data/local.env")
+	_ = util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
 
 	log.Println("********************** Backend Started *********************")
 }

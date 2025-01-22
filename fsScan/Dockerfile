@@ -14,10 +14,18 @@ LABEL maintainer="Dan"
 
 # Set the Current Working Directory inside the container
 WORKDIR /home
-RUN mkdir drossi
-WORKDIR /home/drossi
-RUN mkdir myTest
-WORKDIR /home/drossi/myTest
+RUN mkdir daniele
+WORKDIR /home/daniele
+RUN mkdir Daniele
+WORKDIR /home/daniele/Daniele
+RUN mkdir myData
+WORKDIR /home/daniele/Daniele/myData
+RUN mkdir scanfile
+WORKDIR /home/daniele/Daniele
+RUN mkdir scanfile
+WORKDIR /home/daniele/Daniele/scanfile
+RUN mkdir data
+RUN mkdir log
 RUN ls
 RUN pwd
 RUN mkdir /app
@@ -53,7 +61,7 @@ RUN go get code.sajari.com/docconv
 
 # *** Copy sources
 COPY fsScan/*.go .
-COPY .env .
+# COPY .env .
 # COPY fsScan/pdftotext /usr/bin/
 
 # *** Build the image

@@ -8,14 +8,18 @@ services:
       container_name: mounttest
       image: my-backend-test
       volumes:
-      - /home/drossi/myTest/data:/home/drossi/myTest/data
+      - /home/daniele/Daniele/scanfile/data:/home/daniele/Daniele/scanfile/data
+      - /home/daniele/Daniele/scanfile/log:/home/daniele/Daniele/scanfile/log
+      - /home/daniele/Daniele/myData/scanfile:/home/daniele/Daniele/myData/scanfile
 
   my-fsscan-test:
       network_mode: fsscan-net
       container_name: mounttest1
       image: my-fsscan-test
       volumes:
-      - /home/drossi/myTest/data:/home/drossi/myTest/data
+      - /home/daniele/Daniele/scanfile/data:/home/daniele/Daniele/scanfile/data
+      - /home/daniele/Daniele/scanfile/log:/home/daniele/Daniele/scanfile/log
+      - /home/daniele/Daniele/myData/scanfile:/home/daniele/Daniele/myData/scanfile
 
   my-frontend-test:
       network_mode: fsscan-net

@@ -1,0 +1,42 @@
+BackEnd 2025/01/22 11:32:27.782203 ********************** Backend Started *********************
+BackEnd 2025/01/22 11:32:27.870686 Hello world I'm a Backend ...
+
+BackEnd 2025/01/22 11:32:27.870967 Call Serve ...
+
+BackEnd 2025/01/22 11:35:06.481406 GetFilesStats server func invoked with parameters   0 listonly ...
+
+BackEnd 2025/01/22 11:35:06.481426 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_output_ENG/
+BackEnd 2025/01/22 11:35:06.490613 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/
+BackEnd 2025/01/22 11:35:06.491004 *** Files list list:"una.txt" list:"Dante.txt" list:"primo.txt" ***
+
+BackEnd 2025/01/22 11:35:09.794262 GetFilesStats server func invoked with parameters   0  ...
+
+BackEnd 2025/01/22 11:35:09.794288 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_output_ENG/
+BackEnd 2025/01/22 11:35:09.794382 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/
+BackEnd 2025/01/22 11:35:09.794447 Num files eng 0 Num files ita 3 ...
+
+BackEnd 2025/01/22 11:35:09.794495 
+Files to READ [{una.txt /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/una.txt} {Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/Dante.txt} {primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/primo.txt}] ...
+
+BackEnd 2025/01/22 11:35:09.794503 ===> gRPC server sending file /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/una.txt
+
+BackEnd 2025/01/22 11:35:09.841113 Words to Send 1 ...
+
+BackEnd 2025/01/22 11:35:09.883049 ... gRPC server sending response file:{path_name:"/home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/una.txt" language:"ITA" num_words:1} words:{w:"ciao" f:1} ...
+
+BackEnd 2025/01/22 11:35:09.983551 ===> gRPC server sending file /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/Dante.txt
+
+BackEnd 2025/01/22 11:35:10.043792 Words to Send 10 ...
+
+BackEnd 2025/01/22 11:35:10.044312 ... gRPC server sending response file:{path_name:"/home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/Dante.txt" language:"ITA" num_words:305} words:{w:"Dante" f:18} words:{w:"della" f:10} words:{w:"Alighieri" f:5} words:{w:"Boccaccio" f:5} words:{w:"nella" f:5} words:{w:"italiana" f:4} words:{w:"nascita" f:4} words:{w:"nome" f:4} words:{w:"Ravenna" f:4} words:{w:"alla" f:3} ...
+
+BackEnd 2025/01/22 11:35:10.145116 ===> gRPC server sending file /home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/primo.txt
+
+BackEnd 2025/01/22 11:35:10.161263 Words to Send 9 ...
+
+BackEnd 2025/01/22 11:35:10.161352 ... gRPC server sending response file:{path_name:"/home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/primo.txt" language:"ITA" num_words:9} words:{w:"paperino" f:4} words:{w:"pluto" f:3} words:{w:"pippo" f:2} words:{w:"paperone" f:2} words:{w:"gastone" f:1} words:{w:"nonna" f:1} words:{w:"papera" f:1} words:{w:"topolino" f:1} words:{w:"minni" f:1} ...
+

@@ -8,7 +8,7 @@
 # Start from the latest golang base image
 # FROM golang:latest as builder
 FROM ubuntu:20.04
-FROM golang:latest
+FROM golang:1.18
 
 ARG HTTP_FRONTEND_PORT
 
@@ -17,24 +17,39 @@ LABEL maintainer="Dan"
 
 # Set the Current Working Directory inside the container
 WORKDIR /home
-RUN mkdir drossi
-WORKDIR /home/drossi
-RUN mkdir myTest
-WORKDIR /home/drossi/myTest
+RUN mkdir daniele
+WORKDIR /home/daniele
+RUN mkdir Daniele
+WORKDIR /home/daniele/Daniele
+RUN mkdir scanfile
+WORKDIR /home/daniele/Daniele/scanfile
 RUN ls
 RUN pwd
 RUN mkdir /app
 WORKDIR /app
 RUN mkdir templates
 COPY ./frontEnd/templates/* templates/
+RUN mkdir proto
+COPY proto/* proto/
 
-# Copy the source from the current directory to the Working Directory inside the container
-COPY ./frontEnd/frontEnd .
+# Copy the source from the current directory to the Working Directory inside the container COPY ./frontEnd/frontEnd .
 # or Build the Go app
-# RUN CGO_ENABLED=0 GOOS=linux go build -a -o backend .
-#COPY ./go.mod .
-#RUN go mod init go.mod
-#RUN go mod tidy
+RUN apt-get update && apt-get install -y apt-transport-https
+RUN apt-get -y update
+COPY go.mod .
+COPY go.sum .
+# *** Download all dependencies. Dependencies will be cached if the go.mod and go.sum files are not changed
+RUN go mod download
+
+# *** Copy sources
+COPY frontEnd/*.go .
+
+# *** Build the image
+RUN go get scanfile.com/scanfile/proto
+
+# Build the image
+#RUN go build -o ./fsScan
+RUN CGO_ENABLED=0 GOOS=linux go build -a -o ./frontEnd .
 
 # EXPOSE 8082
 EXPOSE $HTTP_FRONTEND_PORT

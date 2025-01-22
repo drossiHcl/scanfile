@@ -1,0 +1,1812 @@
+FsScan 2025/01/22 11:32:27.668532 PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+FsScan 2025/01/22 11:32:27.861461 HOSTNAME=33829dadc52e
+
+FsScan 2025/01/22 11:32:27.861469 GOLANG_VERSION=1.18.10
+
+FsScan 2025/01/22 11:32:27.861470 GOPATH=/go
+
+FsScan 2025/01/22 11:32:27.861472 HOME=/root
+
+FsScan 2025/01/22 11:32:27.861474 MIN_WORD_LEN=3
+
+FsScan 2025/01/22 11:32:27.861476 DATA_DASCARTARE_DIR=/home/daniele/Daniele/myData/scanfile/daScartare/
+
+FsScan 2025/01/22 11:32:27.861477 DATA_TEXTFILES_NAME=/home/daniele/Daniele/myData/scanfile/textFiles_
+
+FsScan 2025/01/22 11:32:27.861479 DATA_TEXTFILES_ITA_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_ITA/
+
+FsScan 2025/01/22 11:32:27.861480 NAME_FILEDASCARTARE=daScartare_
+
+FsScan 2025/01/22 11:32:27.861482 DATA_OUTPUT_TEXTFILES_ENG_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_output_ENG/
+
+FsScan 2025/01/22 11:32:27.861484 MAX_WORDS=10
+
+FsScan 2025/01/22 11:32:27.861485 TIMER_FSSCAN=20
+
+FsScan 2025/01/22 11:32:27.861490 DATA_PROCESSED_TEXTFILES_ITA_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/
+
+FsScan 2025/01/22 11:32:27.861494 DATA_OUTPUT_TEXTFILES_ITA_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_output_ITA/
+
+FsScan 2025/01/22 11:32:27.861495 MAX_WORDS_PERCENTAGE=50
+
+FsScan 2025/01/22 11:32:27.861497 DATA_FILES_FOLDER=/home/daniele/Daniele/myData/scanfile/textFiles_input/
+
+FsScan 2025/01/22 11:32:27.861498 DATA_TEXTFILES_ENG_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_ENG/"
+
+FsScan 2025/01/22 11:32:27.861500 DATA_PROCESSED_TEXTFILES_ENG_DIR=/home/daniele/Daniele/myData/scanfile/textFiles_processed_ENG/
+
+FsScan 2025/01/22 11:32:27.861502 ********************** FsScan Started *********************
+FsScan 2025/01/22 11:32:27.861503 Hello world I'm a Fs Scan ...
+
+FsScan 2025/01/22 11:32:47.880220 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:32:47.884187 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:32:47.884200 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:32:47.884223 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:32:47.884239 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:32:47.884278 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:33:07.903227 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:33:07.903488 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:33:07.903507 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:33:07.903550 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:33:07.903582 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:33:07.903651 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:33:27.913017 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:33:27.913226 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:33:27.913261 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:33:27.913299 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:33:27.913329 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:33:27.913450 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:33:47.932681 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:33:47.932879 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:33:47.932897 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:33:47.932952 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:33:47.933032 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:33:47.933130 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:34:07.952321 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:34:07.952543 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:34:07.952561 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:34:07.952599 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:34:07.952631 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:34:07.952703 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:34:27.971210 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:34:27.971395 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:34:27.971411 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:34:27.971448 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:34:27.971498 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:34:27.971573 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:34:47.990203 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:34:47.990387 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:34:47.990402 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:34:47.990439 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:34:47.990471 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:34:47.990533 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:35:08.009170 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:35:08.009302 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:35:08.009313 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:35:08.009338 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:35:08.009379 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:35:08.009426 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:35:28.028535 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:35:28.028606 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:35:28.028611 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:35:28.028622 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:35:28.028631 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:35:28.028656 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:35:48.047854 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:35:48.048028 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:35:48.048044 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:35:48.048125 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:35:48.048163 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:35:48.048247 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:36:08.067144 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:36:08.067287 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:36:08.067299 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:36:08.067325 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:36:08.067369 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:36:08.067416 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:36:28.086108 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:36:28.086175 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:36:28.086179 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:36:28.086190 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:36:28.086199 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:36:28.086222 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:36:48.105202 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:36:48.105374 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:36:48.105389 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:36:48.105425 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:36:48.105455 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:36:48.105522 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:37:08.124151 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:37:08.124259 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:37:08.124269 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:37:08.124290 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:37:08.124308 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:37:08.124350 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:37:28.143137 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:37:28.143276 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:37:28.143287 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:37:28.143311 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:37:28.143337 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:37:28.143434 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:37:48.162119 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:37:48.162223 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:37:48.162231 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:37:48.162249 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:37:48.162267 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:37:48.162297 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:38:08.181194 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:38:08.181398 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:38:08.181409 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:38:08.181441 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:38:08.181467 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:38:08.181544 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:38:28.200443 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:38:28.200641 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:38:28.200659 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:38:28.200699 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:38:28.200786 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:38:28.200956 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:38:48.220291 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:38:48.220565 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:38:48.220594 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:38:48.220639 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:38:48.220675 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:38:48.220761 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:39:08.239207 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:39:08.239386 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:39:08.239401 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:39:08.239436 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:39:08.239466 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:39:08.239525 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:39:28.258209 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:39:28.258392 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:39:28.258407 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:39:28.258443 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:39:28.258473 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:39:28.258536 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:39:48.277356 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:39:48.277560 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:39:48.277578 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:39:48.277615 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:39:48.277645 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:39:48.277704 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:40:08.296193 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:40:08.296266 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:40:08.296271 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:40:08.296291 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:40:08.296300 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:40:08.296324 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:40:28.315228 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:40:28.315328 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:40:28.315335 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:40:28.315352 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:40:28.315366 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:40:28.315619 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:40:48.333676 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:40:48.333895 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:40:48.333913 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:40:48.333984 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:40:48.334026 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:40:48.334142 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:41:08.353196 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:41:08.353284 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:41:08.353291 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:41:08.353306 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:41:08.353317 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:41:08.353342 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:41:28.372207 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:41:28.372387 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:41:28.372403 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:41:28.372439 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:41:28.372470 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:41:28.372537 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:41:48.391229 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:41:48.391425 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:41:48.391443 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:41:48.391481 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:41:48.391514 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:41:48.391605 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:42:08.410453 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:42:08.410674 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:42:08.410691 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:42:08.410729 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:42:08.410769 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:42:08.410864 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:42:28.429225 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:42:28.429420 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:42:28.429436 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:42:28.429469 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:42:28.429512 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:42:28.429571 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:42:48.448179 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:42:48.448300 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:42:48.448309 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:42:48.448333 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:42:48.448352 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:42:48.448399 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:43:08.467247 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:43:08.467431 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:43:08.467446 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:43:08.467481 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:43:08.467513 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:43:08.467568 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:43:28.486353 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:43:28.486562 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:43:28.486580 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:43:28.486617 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:43:28.486688 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:43:28.486761 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:43:48.505240 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:43:48.505456 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:43:48.505473 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:43:48.505513 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:43:48.505548 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:43:48.505618 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:44:08.524190 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:44:08.524306 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:44:08.524315 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:44:08.524335 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:44:08.524353 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:44:08.524403 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:44:28.543192 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:44:28.543285 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:44:28.543288 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:44:28.543318 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:44:28.543326 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:44:28.543347 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:44:48.562040 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:44:48.562296 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:44:48.562316 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:44:48.562381 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:44:48.562432 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:44:48.562509 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:45:08.581222 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:45:08.581429 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:45:08.581446 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:45:08.581483 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:45:08.581514 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:45:08.581590 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:45:28.600353 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:45:28.600569 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:45:28.600586 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:45:28.600627 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:45:28.600662 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:45:28.600733 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:45:48.619366 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:45:48.619567 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:45:48.619583 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:45:48.619622 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:45:48.619655 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:45:48.619721 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:46:08.638237 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:46:08.638458 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:46:08.638475 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:46:08.638513 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:46:08.638546 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:46:08.638612 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:46:28.657230 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:46:28.657403 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:46:28.657419 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:46:28.657473 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:46:28.657501 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:46:28.657585 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:46:48.662649 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:46:48.662864 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:46:48.662901 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:46:48.662947 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:46:48.662983 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:46:48.663110 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:47:08.682360 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:47:08.682575 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:47:08.682592 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:47:08.682674 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:47:08.682723 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:47:08.682805 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:47:28.701384 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:47:28.701611 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:47:28.701629 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:47:28.701671 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:47:28.701741 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:47:28.701825 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:47:48.705670 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:47:48.705882 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:47:48.705900 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:47:48.705943 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:47:48.705979 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:47:48.706052 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:48:08.725354 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:48:08.725626 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:48:08.725648 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:48:08.725693 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:48:08.725729 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:48:08.725806 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:48:28.744254 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:48:28.744436 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:48:28.744452 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:48:28.744489 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:48:28.744520 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:48:28.744601 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:48:48.763775 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:48:48.763923 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:48:48.763935 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:48:48.763962 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:48:48.763983 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:48:48.764035 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:49:08.764176 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:49:08.764287 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:49:08.764295 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:49:08.764313 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:49:08.764328 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:49:08.764359 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:49:28.783247 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:49:28.783529 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:49:28.783549 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:49:28.783592 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:49:28.783627 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:49:28.783695 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:49:48.802247 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:49:48.802481 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:49:48.802499 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:49:48.802536 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:49:48.802576 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:49:48.802636 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:50:08.821284 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:50:08.821500 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:50:08.821542 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:50:08.821588 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:50:08.821623 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:50:08.821697 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:50:28.840231 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:50:28.840434 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:50:28.840452 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:50:28.840491 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:50:28.840524 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:50:28.840590 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:50:48.859171 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:50:48.859267 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:50:48.859285 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:50:48.859296 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:50:48.859309 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:50:48.859351 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:51:08.878225 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:51:08.878440 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:51:08.878459 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:51:08.878502 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:51:08.878537 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:51:08.878627 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:51:28.897233 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:51:28.897458 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:51:28.897475 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:51:28.897519 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:51:28.897558 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:51:28.897652 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:51:48.916221 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:51:48.916430 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:51:48.916448 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:51:48.916527 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:51:48.916570 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:51:48.916653 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:52:08.935295 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:52:08.935423 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:52:08.935433 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:52:08.935455 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:52:08.935471 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:52:08.935509 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:52:28.954159 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:52:28.954226 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:52:28.954231 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:52:28.954242 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:52:28.954250 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:52:28.954269 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:52:48.955384 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:52:48.955658 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:52:48.955679 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:52:48.955744 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:52:48.955777 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:52:48.955841 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:53:08.974206 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:53:08.974367 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:53:08.974378 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:53:08.974407 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:53:08.974432 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:53:08.974483 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:53:28.993219 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:53:28.993415 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:53:28.993432 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:53:28.993494 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:53:28.993528 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:53:28.993593 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:53:49.012229 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:53:49.012471 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:53:49.012505 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:53:49.012548 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:53:49.012580 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:53:49.012643 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:54:09.031247 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:54:09.031469 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:54:09.031487 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:54:09.031529 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:54:09.031598 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:54:09.031679 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:54:29.050326 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:54:29.050538 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:54:29.050556 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:54:29.050599 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:54:29.050635 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:54:29.050705 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:54:49.069916 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:54:49.070191 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:54:49.070215 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:54:49.070258 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:54:49.070322 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:54:49.070389 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:55:09.089212 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:55:09.089424 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:55:09.089436 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:55:09.089505 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:55:09.089537 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:55:09.089605 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:55:29.108381 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:55:29.108624 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:55:29.108645 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:55:29.108687 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:55:29.108721 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:55:29.108789 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:55:49.127220 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:55:49.127426 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:55:49.127446 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:55:49.127488 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:55:49.127524 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:55:49.127598 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:56:09.146201 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:56:09.146390 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:56:09.146405 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:56:09.146442 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:56:09.146489 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:56:09.146552 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:56:29.165233 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:56:29.165454 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:56:29.165473 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:56:29.165511 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:56:29.165545 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:56:29.165608 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:56:49.184158 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:56:49.184354 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:56:49.184369 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:56:49.184405 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:56:49.184436 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:56:49.184492 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:57:09.203220 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:57:09.203470 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:57:09.203486 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:57:09.203527 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:57:09.203562 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:57:09.203632 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:57:29.214111 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:57:29.214372 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:57:29.214391 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:57:29.214434 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:57:29.214489 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:57:29.214566 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:57:49.233582 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:57:49.233793 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:57:49.233810 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:57:49.233851 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:57:49.233909 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:57:49.233984 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:58:09.252218 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:58:09.252451 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:58:09.252471 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:58:09.252511 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:58:09.252546 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:58:09.252610 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:58:29.272197 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:58:29.272368 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:58:29.272384 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:58:29.272416 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:58:29.272443 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:58:29.272508 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:58:49.291201 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:58:49.291339 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:58:49.291363 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:58:49.291391 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:58:49.291410 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:58:49.291450 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:59:09.304151 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:59:09.304247 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:59:09.304270 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:59:09.304288 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:59:09.304301 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:59:09.304326 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:59:29.323159 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:59:29.323376 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:59:29.323393 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:59:29.323429 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:59:29.323460 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:59:29.323517 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 11:59:49.342712 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 11:59:49.342920 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 11:59:49.342937 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 11:59:49.342977 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 11:59:49.343010 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 11:59:49.343117 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:00:09.362253 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:00:09.362471 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:00:09.362489 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:00:09.362531 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:00:09.362566 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:00:09.362631 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:00:29.381876 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:00:29.382098 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:00:29.382122 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:00:29.382166 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:00:29.382235 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:00:29.382312 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:00:49.401233 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:00:49.401455 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:00:49.401472 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:00:49.401514 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:00:49.401549 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:00:49.401613 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:01:09.420580 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:01:09.420824 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:01:09.420842 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:01:09.420882 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:01:09.420937 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:01:09.420998 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:01:29.440234 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:01:29.440412 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:01:29.440449 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:01:29.440486 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:01:29.440517 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:01:29.440577 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:01:49.459222 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:01:49.459463 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:01:49.459483 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:01:49.459527 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:01:49.459563 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:01:49.459633 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:02:09.478838 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:02:09.479092 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:02:09.479114 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:02:09.479151 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:02:09.479194 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:02:09.479260 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:02:29.498358 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:02:29.498561 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:02:29.498579 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:02:29.498619 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:02:29.498654 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:02:29.498731 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:02:49.511913 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:02:49.512145 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:02:49.512192 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:02:49.512236 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:02:49.512271 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:02:49.512370 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:03:09.522639 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:03:09.522842 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:03:09.522859 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:03:09.522899 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:03:09.522932 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:03:09.523035 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:03:29.542243 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:03:29.542448 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:03:29.542497 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:03:29.542543 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:03:29.542577 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:03:29.542635 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:03:49.561909 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:03:49.562152 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:03:49.562174 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:03:49.562215 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:03:49.562246 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:03:49.562313 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:04:09.581304 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:04:09.581488 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:04:09.581504 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:04:09.581539 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:04:09.581569 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:04:09.581628 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:04:29.600359 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:04:29.600565 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:04:29.600583 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:04:29.600624 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:04:29.600660 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:04:29.600729 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:04:49.619346 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:04:49.619550 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:04:49.619566 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:04:49.619631 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:04:49.619670 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:04:49.619732 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:05:09.638206 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:05:09.638381 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:05:09.638396 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:05:09.638432 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:05:09.638462 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:05:09.638534 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:05:29.657218 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:05:29.657483 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:05:29.657526 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:05:29.657573 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:05:29.657608 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:05:29.657693 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:05:49.676211 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:05:49.676453 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:05:49.676467 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:05:49.676506 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:05:49.676538 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:05:49.676600 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:06:09.695116 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:06:09.695197 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:06:09.695202 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:06:09.695213 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:06:09.695222 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:06:09.695242 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:06:29.714164 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:06:29.714353 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:06:29.714368 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:06:29.714404 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:06:29.714433 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:06:29.714506 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:06:49.733188 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:06:49.733283 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:06:49.733290 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:06:49.733305 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:06:49.733317 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:06:49.733349 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:07:09.752242 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:07:09.752440 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:07:09.752457 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:07:09.752506 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:07:09.752542 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:07:09.752607 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:07:29.771914 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:07:29.772150 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:07:29.772172 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:07:29.772210 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:07:29.772271 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:07:29.772331 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:07:49.791173 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:07:49.791374 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:07:49.791385 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:07:49.791426 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:07:49.791452 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:07:49.791517 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:08:09.808427 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:08:09.808516 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:08:09.808534 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:08:09.808550 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:08:09.808562 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:08:09.808585 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:08:29.827339 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:08:29.827558 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:08:29.827576 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:08:29.827615 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:08:29.827647 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:08:29.827709 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:08:49.846441 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:08:49.846670 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:08:49.846714 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:08:49.846769 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:08:49.846805 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:08:49.846870 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:09:09.852264 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:09:09.852478 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:09:09.852496 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:09:09.852540 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:09:09.852578 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:09:09.852648 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:09:29.871958 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:09:29.872224 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:09:29.872244 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:09:29.872284 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:09:29.872318 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:09:29.872400 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:09:49.891197 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:09:49.891263 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:09:49.891267 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:09:49.891277 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:09:49.891285 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:09:49.891303 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:10:09.910210 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:10:09.910447 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:10:09.910467 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:10:09.910511 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:10:09.910548 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:10:09.910655 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:10:29.922764 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:10:29.923006 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:10:29.923025 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:10:29.923097 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:10:29.923156 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:10:29.923228 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:10:49.923544 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:10:49.923758 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:10:49.923778 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:10:49.923822 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:10:49.923859 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:10:49.923923 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:11:09.943203 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:11:09.943416 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:11:09.943434 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:11:09.943490 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:11:09.943528 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:11:09.943595 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:11:29.962804 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:11:29.963048 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:11:29.963136 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:11:29.963188 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:11:29.963224 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:11:29.963303 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:11:49.982251 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:11:49.982459 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:11:49.982471 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:11:49.982504 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:11:49.982530 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:11:49.982586 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:12:10.001172 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:12:10.001387 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:12:10.001404 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:12:10.001444 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:12:10.001477 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:12:10.001557 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:12:30.020292 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:12:30.020506 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:12:30.020524 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:12:30.020567 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:12:30.020603 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:12:30.020669 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:12:50.039349 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:12:50.039567 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:12:50.039584 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:12:50.039626 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:12:50.039664 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:12:50.039736 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:13:10.058170 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:13:10.058242 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:13:10.058249 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:13:10.058260 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:13:10.058289 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:13:10.058308 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:13:30.077496 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:13:30.077700 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:13:30.077719 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:13:30.077763 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:13:30.077802 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:13:30.077878 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:13:50.092690 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:13:50.092928 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:13:50.092948 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:13:50.093018 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:13:50.093050 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:13:50.093199 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:14:10.112169 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:14:10.112381 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:14:10.112399 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:14:10.112442 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:14:10.112476 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:14:10.112540 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:14:30.112849 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:14:30.113108 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:14:30.113135 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:14:30.113185 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:14:30.113226 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:14:30.113313 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:14:50.132504 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:14:50.132715 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:14:50.132732 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:14:50.132770 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:14:50.132804 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:14:50.132866 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:15:10.151359 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:15:10.151576 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:15:10.151594 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:15:10.151635 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:15:10.151672 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:15:10.151739 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:15:30.170222 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:15:30.170411 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:15:30.170427 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:15:30.170462 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:15:30.170492 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:15:30.170581 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:15:50.181169 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:15:50.181363 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:15:50.181380 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:15:50.181419 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:15:50.181452 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:15:50.181541 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:16:10.200713 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:16:10.200957 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:16:10.200976 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:16:10.201019 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:16:10.201054 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:16:10.201177 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:16:30.220229 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:16:30.220403 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:16:30.220418 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:16:30.220478 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:16:30.220514 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:16:30.220571 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:16:50.239240 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:16:50.239450 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:16:50.239465 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:16:50.239503 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:16:50.239535 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:16:50.239600 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:17:10.258161 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:17:10.258232 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:17:10.258236 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:17:10.258247 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:17:10.258256 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:17:10.258278 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:17:30.267230 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:17:30.267463 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:17:30.267483 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:17:30.267524 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:17:30.267558 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:17:30.267634 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:17:50.286649 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:17:50.286850 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:17:50.286866 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:17:50.286904 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:17:50.286937 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:17:50.287001 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:18:10.306353 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:18:10.306596 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:18:10.306610 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:18:10.306652 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:18:10.306686 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:18:10.306755 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:18:30.325351 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:18:30.325549 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:18:30.325560 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:18:30.325594 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:18:30.325622 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:18:30.325710 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:18:50.344263 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:18:50.344459 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:18:50.344474 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:18:50.344510 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:18:50.344556 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:18:50.344618 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:19:10.363248 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:19:10.363458 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:19:10.363475 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:19:10.363549 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:19:10.363587 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:19:10.363669 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:19:30.382246 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:19:30.382472 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:19:30.382490 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:19:30.382530 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:19:30.382563 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:19:30.382623 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:19:50.386030 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:19:50.386263 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:19:50.386284 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:19:50.386327 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:19:50.386360 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:19:50.386463 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:20:10.405348 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:20:10.405572 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:20:10.405592 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:20:10.405664 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:20:10.405700 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:20:10.405780 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:20:30.413400 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:20:30.413638 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:20:30.413674 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:20:30.413722 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:20:30.413753 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:20:30.413826 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:20:50.432178 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:20:50.432272 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:20:50.432279 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:20:50.432305 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:20:50.432326 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:20:50.432362 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:21:10.443448 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:21:10.443724 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:21:10.443746 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:21:10.443791 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:21:10.443825 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:21:10.443906 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:21:30.459350 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:21:30.459574 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:21:30.459592 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:21:30.459635 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:21:30.459670 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:21:30.459742 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:21:50.472807 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:21:50.473023 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:21:50.473040 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:21:50.473133 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:21:50.473203 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:21:50.473288 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:22:10.473550 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:22:10.473768 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:22:10.473785 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:22:10.473828 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:22:10.473893 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:22:10.473988 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:22:30.492731 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:22:30.492957 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:22:30.492971 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:22:30.493014 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:22:30.493046 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:22:30.493173 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:22:50.512241 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:22:50.512433 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:22:50.512459 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:22:50.512496 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:22:50.512526 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:22:50.512583 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:23:10.531215 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:23:10.531438 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:23:10.531456 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:23:10.531495 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:23:10.531528 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:23:10.531612 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:23:30.550281 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:23:30.550478 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:23:30.550495 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:23:30.550533 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:23:30.550567 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:23:30.550630 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:23:50.569202 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:23:50.569428 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:23:50.569457 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:23:50.569498 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:23:50.569531 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:23:50.569594 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:24:10.588364 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:24:10.588542 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:24:10.588557 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:24:10.588592 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:24:10.588622 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:24:10.588689 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:24:30.607229 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:24:30.607410 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:24:30.607421 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:24:30.607450 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:24:30.607474 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:24:30.607521 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:24:50.626212 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:24:50.626404 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:24:50.626420 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:24:50.626453 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:24:50.626481 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:24:50.626533 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:25:10.645452 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:25:10.645650 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:25:10.645666 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:25:10.645705 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:25:10.645736 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:25:10.645801 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:25:30.664964 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:25:30.665186 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:25:30.665206 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:25:30.665243 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:25:30.665274 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:25:30.665337 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:25:50.672315 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:25:50.672548 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:25:50.672564 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:25:50.672625 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:25:50.672661 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:25:50.672733 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:26:10.692154 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:26:10.692367 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:26:10.692386 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:26:10.692429 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:26:10.692494 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:26:10.692573 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:26:30.693588 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:26:30.693789 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:26:30.693829 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:26:30.693881 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:26:30.693913 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:26:30.693985 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:26:50.713223 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:26:50.713488 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:26:50.713507 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:26:50.713546 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:26:50.713579 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:26:50.713654 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:27:10.732211 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:27:10.732422 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:27:10.732440 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:27:10.732479 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:27:10.732512 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:27:10.732576 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:27:30.751876 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:27:30.752137 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:27:30.752158 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:27:30.752198 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:27:30.752231 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:27:30.752297 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:27:50.771549 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:27:50.771709 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:27:50.771722 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:27:50.771751 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:27:50.771801 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:27:50.771860 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:28:10.790513 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:28:10.790702 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:28:10.790717 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:28:10.790752 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:28:10.790783 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:28:10.790842 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:28:30.809833 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:28:30.809923 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:28:30.809928 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:28:30.809938 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:28:30.809956 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:28:30.809979 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:28:50.828237 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:28:50.828436 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:28:50.828452 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:28:50.828491 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:28:50.828525 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:28:50.828586 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:29:10.847733 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:29:10.847938 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:29:10.847957 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:29:10.848000 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:29:10.848038 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:29:10.848160 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:29:30.867159 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:29:30.867241 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:29:30.867246 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:29:30.867260 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:29:30.867272 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:29:30.867292 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:29:50.886270 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:29:50.886500 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:29:50.886518 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:29:50.886556 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:29:50.886589 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:29:50.886659 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:30:10.905352 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:30:10.905576 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:30:10.905596 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:30:10.905639 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:30:10.905676 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:30:10.905744 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:30:30.918252 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:30:30.918334 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:30:30.918339 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:30:30.918362 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:30:30.918374 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:30:30.918394 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:30:50.937232 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:30:50.937467 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:30:50.937485 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:30:50.937526 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:30:50.937561 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:30:50.937625 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:31:10.940269 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:31:10.940452 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:31:10.940467 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:31:10.940502 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:31:10.940560 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:31:10.940619 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:31:30.959933 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:31:30.960221 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:31:30.960245 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:31:30.960289 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:31:30.960324 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:31:30.960396 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:31:50.979572 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:31:50.979808 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:31:50.979829 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:31:50.979875 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:31:50.979909 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:31:50.979999 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:32:10.999212 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:32:10.999395 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:32:10.999411 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:32:10.999462 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:32:10.999497 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:32:10.999558 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:32:31.018222 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:32:31.018451 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:32:31.018474 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:32:31.018523 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:32:31.018567 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:32:31.018667 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:32:51.037257 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:32:51.037464 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:32:51.037498 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:32:51.037534 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:32:51.037561 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:32:51.037612 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:33:11.045327 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:33:11.045415 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:33:11.045420 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:33:11.045434 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:33:11.045446 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:33:11.045472 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:33:31.063248 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:33:31.063465 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:33:31.063483 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:33:31.063526 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:33:31.063563 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:33:31.063629 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:33:51.082242 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:33:51.082460 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:33:51.082477 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:33:51.082522 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:33:51.082555 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:33:51.082624 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:34:11.101264 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:34:11.101466 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:34:11.101482 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:34:11.101551 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:34:11.101586 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:34:11.101648 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:34:31.120234 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:34:31.120460 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:34:31.120479 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:34:31.120521 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:34:31.120554 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:34:31.120654 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:34:51.139155 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:34:51.139341 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:34:51.139357 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:34:51.139392 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:34:51.139446 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:34:51.139505 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:35:11.158136 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:35:11.158247 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:35:11.158250 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:35:11.158272 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:35:11.158307 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:35:11.158326 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:35:31.177518 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:35:31.177731 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:35:31.177749 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:35:31.177792 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:35:31.177828 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:35:31.177909 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:35:51.196109 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:35:51.196194 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:35:51.196198 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:35:51.196210 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:35:51.196298 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:35:51.196322 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:36:11.215142 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:36:11.215211 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:36:11.215215 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:36:11.215226 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:36:11.215234 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:36:11.215254 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:36:31.234276 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:36:31.234510 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:36:31.234529 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:36:31.234569 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:36:31.234603 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:36:31.234701 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:36:51.235058 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:36:51.235289 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:36:51.235308 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:36:51.235349 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:36:51.235383 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:36:51.235484 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:37:11.254111 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:37:11.254200 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:37:11.254205 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:37:11.254217 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:37:11.254228 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:37:11.254257 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:37:31.273203 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:37:31.273386 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:37:31.273402 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:37:31.273438 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:37:31.273489 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:37:31.273564 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:37:51.292190 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:37:51.292292 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:37:51.292300 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:37:51.292315 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:37:51.292327 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:37:51.292350 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:38:11.311351 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:38:11.311564 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:38:11.311580 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:38:11.311619 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:38:11.311681 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:38:11.311751 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:38:31.330975 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:38:31.331251 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:38:31.331275 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:38:31.331318 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:38:31.331358 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:38:31.331443 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:38:51.350206 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:38:51.350372 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:38:51.350386 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:38:51.350434 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:38:51.350463 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:38:51.350517 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:39:11.369693 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:39:11.369942 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:39:11.369953 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:39:11.369989 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:39:11.370015 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:39:11.370092 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:39:31.389196 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:39:31.389255 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:39:31.389259 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:39:31.389269 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:39:31.389278 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:39:31.389301 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:39:51.408343 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:39:51.408546 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:39:51.408562 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:39:51.408600 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:39:51.408658 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:39:51.408721 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:40:11.427154 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:40:11.427233 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:40:11.427240 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:40:11.427253 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:40:11.427275 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:40:11.427302 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:40:31.446223 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:40:31.446465 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:40:31.446483 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:40:31.446523 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:40:31.446557 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:40:31.446621 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:40:51.465232 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:40:51.465413 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:40:51.465429 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:40:51.465465 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:40:51.465495 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:40:51.465558 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:41:11.484255 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:41:11.484466 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:41:11.484484 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:41:11.484550 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:41:11.484580 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:41:11.484640 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:41:31.499913 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:41:31.500164 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:41:31.500186 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:41:31.500229 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:41:31.500322 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:41:31.500395 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:41:51.519351 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:41:51.519596 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:41:51.519615 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:41:51.519657 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:41:51.519692 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:41:51.519765 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:42:11.538360 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:42:11.538582 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:42:11.538602 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:42:11.538644 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:42:11.538683 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:42:11.538750 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:42:31.558053 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:42:31.558341 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:42:31.558365 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:42:31.558409 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:42:31.558446 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:42:31.558515 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:42:51.577264 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:42:51.577488 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:42:51.578056 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:42:51.578155 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:42:51.578217 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:42:51.578297 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:43:11.597426 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:43:11.597620 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:43:11.597635 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:43:11.597671 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:43:11.597701 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:43:11.597782 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:43:31.616220 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:43:31.616400 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:43:31.616441 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:43:31.616481 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:43:31.616512 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:43:31.616575 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:43:51.635206 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:43:51.635406 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:43:51.635423 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:43:51.635482 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:43:51.635520 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:43:51.635583 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:44:11.652526 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:44:11.652744 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:44:11.652762 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:44:11.652805 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:44:11.652842 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:44:11.652912 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:44:31.672223 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:44:31.672406 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:44:31.672421 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:44:31.672458 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:44:31.672489 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:44:31.672544 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:44:51.691690 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:44:51.691900 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:44:51.691918 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:44:51.691960 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:44:51.691995 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:44:51.692063 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:45:11.711205 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:45:11.711430 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:45:11.711448 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:45:11.711485 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:45:11.711525 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:45:11.711588 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:45:31.730356 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:45:31.730584 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:45:31.730596 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:45:31.730662 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:45:31.730693 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:45:31.730753 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:45:51.749949 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:45:51.750154 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:45:51.750172 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:45:51.750205 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:45:51.750231 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:45:51.750288 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:46:11.769210 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:46:11.769434 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:46:11.769481 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:46:11.769540 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:46:11.769577 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:46:11.769639 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:46:31.776497 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:46:31.776704 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:46:31.776722 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:46:31.776766 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:46:31.776802 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:46:31.776878 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:46:51.795328 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:46:51.795533 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:46:51.795549 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:46:51.795589 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:46:51.795621 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:46:51.795681 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:47:11.814242 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:47:11.814421 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:47:11.814437 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:47:11.814473 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:47:11.814503 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:47:11.814559 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:47:31.814928 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:47:31.815204 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:47:31.815231 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:47:31.815307 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:47:31.815339 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:47:31.815408 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:47:51.834051 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:47:51.834168 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:47:51.834176 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:47:51.834193 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:47:51.834204 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:47:51.834235 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:48:11.853433 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:48:11.853648 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:48:11.853665 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:48:11.853707 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:48:11.853777 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:48:11.853852 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:48:31.872223 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:48:31.872439 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:48:31.872455 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:48:31.872494 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:48:31.872527 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:48:31.872591 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:48:51.891245 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:48:51.891458 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:48:51.891475 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:48:51.891517 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:48:51.891552 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:48:51.891614 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:49:11.910869 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:49:11.911118 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:49:11.911143 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:49:11.911186 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:49:11.911220 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:49:11.911292 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:49:31.930144 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:49:31.930220 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:49:31.930225 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:49:31.930258 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:49:31.930268 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:49:31.930294 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:49:51.930626 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:49:51.930849 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:49:51.930862 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:49:51.930898 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:49:51.930926 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:49:51.930986 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:50:11.950293 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:50:11.950521 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:50:11.950540 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:50:11.950611 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:50:11.950670 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:50:11.950748 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:50:31.969164 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:50:31.969228 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:50:31.969232 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:50:31.969243 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:50:31.969252 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:50:31.969293 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:50:51.988205 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:50:51.988409 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:50:51.988427 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:50:51.988467 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:50:51.988501 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:50:51.988565 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:51:12.007227 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:51:12.007459 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:51:12.007495 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:51:12.007537 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:51:12.007570 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:51:12.007654 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:51:32.022692 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:51:32.022773 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:51:32.022778 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:51:32.022809 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:51:32.022819 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:51:32.022844 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:51:52.041227 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:51:52.041467 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:51:52.041480 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:51:52.041530 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:51:52.041561 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:51:52.041625 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:52:12.060144 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:52:12.060209 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:52:12.060213 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:52:12.060224 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:52:12.060233 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:52:12.060253 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:52:32.079137 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:52:32.079203 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:52:32.079207 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:52:32.079218 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:52:32.079227 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:52:32.079245 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:52:52.098223 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:52:52.098444 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:52:52.098462 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:52:52.098501 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:52:52.098533 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:52:52.098602 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:53:12.117199 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:53:12.117285 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:53:12.117305 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:53:12.117322 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:53:12.117335 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:53:12.117361 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:53:32.136159 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:53:32.136226 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:53:32.136230 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:53:32.136241 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:53:32.136279 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:53:32.136300 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:53:52.155238 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:53:52.155415 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:53:52.155432 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:53:52.155491 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:53:52.155519 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:53:52.155574 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:54:12.174912 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:54:12.175189 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:54:12.175215 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:54:12.175259 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:54:12.175295 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:54:12.175367 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:54:32.194149 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:54:32.194213 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:54:32.194217 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:54:32.194227 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:54:32.194236 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:54:32.194255 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:54:52.213238 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:54:52.213467 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:54:52.213486 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:54:52.213528 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:54:52.213617 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:54:52.213698 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:55:12.232370 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:55:12.232587 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:55:12.232605 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:55:12.232648 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:55:12.232684 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:55:12.232752 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:55:32.251163 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:55:32.251227 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:55:32.251232 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:55:32.251254 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:55:32.251284 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:55:32.251303 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:55:52.252949 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:55:52.253191 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:55:52.253215 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:55:52.253257 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:55:52.253316 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:55:52.253392 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:56:12.272172 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:56:12.272398 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:56:12.272416 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:56:12.272493 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:56:12.272531 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:56:12.272604 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:56:32.292032 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:56:32.292115 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:56:32.292121 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:56:32.292132 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:56:32.292140 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:56:32.292160 ****** After Wait, filesToProcess false 
+FsScan 2025/01/22 12:56:52.311167 
+ DIIR to Open /home/daniele/Daniele/myData/scanfile/textFiles_input/
+FsScan 2025/01/22 12:56:52.311362 ****** Files: [una.txt Dante.txt primo.txt] NBR 3
+FsScan 2025/01/22 12:56:52.311378 ****** File : una.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/una.txt
+FsScan 2025/01/22 12:56:52.311417 ****** File : Dante.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/Dante.txt
+FsScan 2025/01/22 12:56:52.311449 ****** File : primo.txt /home/daniele/Daniele/myData/scanfile/textFiles_processed_ITA/primo.txt
+FsScan 2025/01/22 12:56:52.311512 ****** After Wait, filesToProcess false 
