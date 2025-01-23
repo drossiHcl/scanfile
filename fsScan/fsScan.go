@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -27,21 +26,18 @@ func main() {
 	filesToProcess := false
 	myInit()
 	util.MyLog("Hello world I'm a Fs Scan ...\n")
-	fmt.Printf("var   = %s\n", types.Env_data_files_folder)
-	fmt.Printf("var   = %d\n", types.Env_timer_fsscan)
 	mins := 1
 	for {
-		fmt.Printf("var1   = %d\n", types.Env_timer_fsscan)
+
 		t1 := time.NewTimer(time.Duration(types.Env_timer_fsscan) * time.Second)
-		// t1 := time.NewTimer(time.Duration(5) * time.Second)
-		fmt.Printf("1   = %d %v\n", types.Env_timer_fsscan, t1)
+
 		wg.Add(1)
-		fmt.Printf("2   = %d %v\n", types.Env_timer_fsscan, t1)
+
 		go func() {
-			fmt.Printf("3   = %d %v\n", types.Env_timer_fsscan, t1)
+
 			defer wg.Done()
 			<-t1.C
-			fmt.Printf("4   = %d %v\n", types.Env_timer_fsscan, t1)
+
 			// scan dir(s) named DATA_FILES_FOLDER
 			dirList, nbrFiles := util.ListDir(types.Env_data_files_folder)
 			util.MyLog("****** Files: %v NBR %d", dirList, nbrFiles)
@@ -91,9 +87,9 @@ func main() {
 				util.MyLog("Timer 1 %d ", nbrFiles)
 			}
 		}()
-		fmt.Printf("5   = %d %v\n", types.Env_timer_fsscan, t1)
+
 		wg.Wait()
-		fmt.Printf("6   = %d %v\n", types.Env_timer_fsscan, t1)
+
 		util.MyLog("****** After Wait, filesToProcess %v ", filesToProcess)
 
 		// Trigger backEnd via gRPC
@@ -113,24 +109,22 @@ func main() {
 }
 
 func myInit() {
-	f, err := os.Create("/home/daniele/Daniele/scanfile/log/log_fsScan.log")
+	var f *os.File = nil
+
+	err := util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
+	if err != nil {
+		log.Fatalf("error opening ENV file: %v", err)
+	}
+
+	f, err = os.Create((types.Env_log_dir + "log_fsScan.log"))
 	FLog = f
 	if err != nil {
-		log.Fatalf("error opening file: %v", err)
+		log.Fatalf("error opening LOG file: %v", err)
 	}
-	// defer f.Close()
-	// wrt := io.MultiWriter(os.Stdout, f)
+
 	log.SetOutput(f)
 	log.SetPrefix("FsScan ")
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
-
-	//myEnv := os.Environ()
-	//for _, e := range myEnv {
-	//	util.MyLog("%v\n", e)
-	//}
-
-	err = util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
-	fmt.Printf("After load Env %v %d\n", err, types.Env_timer_fsscan)
 
 	myEnv := os.Environ()
 	for _, e := range myEnv {

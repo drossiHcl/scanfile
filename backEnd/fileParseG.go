@@ -20,7 +20,6 @@ type WordsListsStats struct {
 
 func main() {
 
-	fmt.Printf("backEnd: Env_data_files_folder dddddddddddddddddir: %s \n", types.Env_data_files_folder)
 	if len(os.Args) != 1 {
 		fmt.Printf("No parameters expected. Ignored \n")
 	}
@@ -46,19 +45,22 @@ func main() {
 }
 
 func myInit() {
-	f, err := os.Create("/home/daniele/Daniele/scanfile/log/log_scanfile.log")
-	fmt.Printf("backEnd: Opened log file : %v \n", err)
+	var f *os.File = nil
+
+	err := util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
+	if err != nil {
+		log.Fatalf("error opening ENV file: %v", err)
+	}
+
+	f, err = os.Create((types.Env_log_dir + "log_backEnd.log"))
 	types.FLog = f
 	if err != nil {
-		log.Fatalf("error opening file: %v", err)
+		log.Fatalf("error opening LOG file: %v", err)
 	}
-	// defer f.Close()
-	// wrt := io.MultiWriter(os.Stdout, f)
+
 	log.SetOutput(f)
 	log.SetPrefix("BackEnd ")
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
-
-	_ = util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
 
 	log.Println("********************** Backend Started *********************")
 }

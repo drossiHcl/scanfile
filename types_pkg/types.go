@@ -14,10 +14,12 @@ var (
 
 	Env_timer_fsscan int
 
-	Env_data_dascartare_dir              string // const DATA_DASCARTARE_DIR = "/home/daniele/Daniele/myData/scanfile/daScartare/"
-	Env_data_textfiles_name              string // const DATA_TEXTFILES_NAME = "/home/daniele/Daniele/myData/scanfile/textFiles_"
-	Env_data_files_folder                string // const DATA_FILES_FOLDER = "/home/daniele/Daniele/myData/scanfile/textFiles_input/"
-	
+	Env_log_dir string // const LOG_DIR = "/home/daniele/Daniele/scanfile/log/"
+
+	Env_data_dascartare_dir string // const DATA_DASCARTARE_DIR = "/home/daniele/Daniele/myData/scanfile/daScartare/"
+	Env_data_textfiles_name string // const DATA_TEXTFILES_NAME = "/home/daniele/Daniele/myData/scanfile/textFiles_"
+	Env_data_files_folder   string // const DATA_FILES_FOLDER = "/home/daniele/Daniele/myData/scanfile/textFiles_input/"
+
 	Env_data_textfiles_ita_dir           string // const DATA_TEXTFILES_ITA_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_ITA/"
 	Env_data_textfiles_eng_dir           string // const DATA_TEXTFILES_ENG_DIR = "/home/daniele/Daniele/myData/scanfile/textFiles_ENG/"
 	Env_name_filedascartare              string // const NAME_FILEDASCARTARE = "daScartare_"
@@ -59,4 +61,3 @@ var Languages = []lingua.Language{
 	lingua.English,
 	lingua.Italian,
 }
-

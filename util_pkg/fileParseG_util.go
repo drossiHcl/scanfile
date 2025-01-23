@@ -105,7 +105,6 @@ func ListDir(dir string) ([]string, int) {
 
 	files = nil
 
-        MyLog("\n DIIR to Open %s", dir)
 	fdir, err := os.Open(dir)
 	if err != nil {
 		MyLog("\nError: can't open directory %s\n\n", dir)
@@ -289,26 +288,27 @@ func LoadEnv(fileEnvName string) error {
 	if err != nil {
 		log.Fatalf("Some error occured in reading local env. Err: %s", err)
 	}
-	
+
 	types.Env_min_word_len, err = strconv.Atoi(os.Getenv("MIN_WORD_LEN"))
-        if (err != nil) {
-	    fmt.Printf("Error in Atoi 1 loading env %d \n", err)
+	if err != nil {
+		fmt.Printf("Error in Atoi 1 loading env %d \n", err)
 	}
 	types.Env_max_words, err = strconv.Atoi(os.Getenv("MAX_WORDS"))
-	if (err != nil) {
-	    fmt.Printf("Error in Atoi 2 loading env %d \n", err)
+	if err != nil {
+		fmt.Printf("Error in Atoi 2 loading env %d \n", err)
 	}
 	types.Env_max_words_percentage, err = strconv.Atoi(os.Getenv("MAX_WORDS_PERCENTAGE"))
-	if (err != nil) {
-	    fmt.Printf("Error in Atoi 3 loading env %d \n", err)
+	if err != nil {
+		fmt.Printf("Error in Atoi 3 loading env %d \n", err)
 	}
 
 	types.Env_timer_fsscan, err = strconv.Atoi(os.Getenv("TIMER_FSSCAN"))
-	if (err != nil) {
-	    fmt.Printf("Error in Atoi 4 loading env %d \n", err)
+	if err != nil {
+		fmt.Printf("Error in Atoi 4 loading env %d \n", err)
 	}
-        fmt.Printf("TIMER FSSCAN loading env %d \n", types.Env_timer_fsscan)
-        
+	fmt.Printf("TIMER FSSCAN loading env %d \n", types.Env_timer_fsscan)
+
+	types.Env_log_dir = os.Getenv("LOG_DIR")
 	types.Env_data_dascartare_dir = os.Getenv("DATA_DASCARTARE_DIR")
 	types.Env_data_textfiles_name = os.Getenv("DATA_TEXTFILES_NAME")
 	types.Env_data_files_folder = os.Getenv("DATA_FILES_FOLDER")
