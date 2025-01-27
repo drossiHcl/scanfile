@@ -6,19 +6,17 @@ services:
       ports:
       - '${GRPC_SERVER_PORT}:${GRPC_SERVER_PORT}'
       container_name: mounttest
-      image: my-backend-test
+#     image: my-backend-test
+      image: k8s-master.local:5000/daniele-my-backend-test:latest
       volumes:
-      - /home/daniele/Daniele/scanfile/data:/home/daniele/Daniele/scanfile/data
-      - /home/daniele/Daniele/scanfile/log:/home/daniele/Daniele/scanfile/log
       - /home/daniele/Daniele/myData/scanfile:/home/daniele/Daniele/myData/scanfile
 
   my-fsscan-test:
       network_mode: fsscan-net
       container_name: mounttest1
-      image: my-fsscan-test
+#     image: my-fsscan-test
+      image: k8s-master.local:5000/daniele-my-fsscan-test:latest
       volumes:
-      - /home/daniele/Daniele/scanfile/data:/home/daniele/Daniele/scanfile/data
-      - /home/daniele/Daniele/scanfile/log:/home/daniele/Daniele/scanfile/log
       - /home/daniele/Daniele/myData/scanfile:/home/daniele/Daniele/myData/scanfile
 
   my-frontend-test:
@@ -26,4 +24,5 @@ services:
       ports:
       - '${HTTP_FRONTEND_PORT}:${HTTP_FRONTEND_PORT}'
       container_name: mounttest2
-      image: my-frontend-test
+#     image: my-frontend-test
+      image: k8s-master.local:5000/daniele-my-frontend-test:latest

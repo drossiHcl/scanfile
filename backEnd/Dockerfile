@@ -28,7 +28,8 @@ WORKDIR /home/daniele/Daniele
 RUN mkdir scanfile
 WORKDIR /home/daniele/Daniele/scanfile
 RUN mkdir data
-RUN mkdir log
+COPY data/* data
+
 RUN ls
 RUN pwd
 RUN mkdir /app
