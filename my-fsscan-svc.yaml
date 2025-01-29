@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-fsscan-test
+  namespace: daniele
+spec:
+  selector:
+    app: my-fsscan-test
+  ports:
+  - protocol: TCP
+    port: ${GRPC_SERVER_PORT}
+    targetPort: ${GRPC_SERVER_PORT}
+  type: ClusterIP

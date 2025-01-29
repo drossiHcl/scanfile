@@ -213,7 +213,8 @@ func sendRequest() (*pbscan.TriggerBackendRes, *grpc.ClientConn, error) {
 		opts = append(opts, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	}
 
-	cc, err := grpc.Dial("mounttest:50051", opts...)
+	// cc, err := grpc.Dial("mounttest:50051", opts...)
+	cc, err := grpc.Dial("my-backend-test:50051", opts...)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}

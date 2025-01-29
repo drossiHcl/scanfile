@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-frontend-test
+  namespace: daniele
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-frontend-test
+  template:
+    metadata:
+      labels:
+        app: my-frontend-test
+    spec:
+      containers:
+      - name: my-frontend-test
+        image: k8s-master.local:5000/daniele-my-frontend-test:latest
+        ports:
+        - containerPort: ${HTTP_FRONTEND_PORT}
+        - containerPort: ${GRPC_SERVER_PORT}

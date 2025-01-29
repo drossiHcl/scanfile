@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-frontend-test-grpc
+  namespace: daniele
+spec:
+  selector:
+    app: my-frontend-test
+  ports:
+  - protocol: TCP
+    port: ${GRPC_SERVER_PORT}
+    targetPort: ${GRPC_SERVER_PORT}
+  type: ClusterIP
+

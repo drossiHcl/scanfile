@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-frontend-test-http
+  namespace: daniele
+spec:
+  selector:
+    app: my-frontend-test
+  ports:
+  - protocol: TCP
+    port: ${HTTP_FRONTEND_PORT}
+    targetPort: ${HTTP_FRONTEND_PORT}
+    nodePort: ${HTTP_FRONTEND_NODEPORT}
+  type: NodePort

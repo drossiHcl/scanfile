@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-fsscan-test
+  namespace: daniele
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-fsscan-test
+  template:
+    metadata:
+      labels:
+        app: my-fsscan-test
+    spec:
+      containers:
+      - name: my-fsscan-test
+        image: k8s-master.local:5000/daniele-my-fsscan-test:latest
+        ports:
+        - containerPort: ${GRPC_SERVER_PORT}
+        volumeMounts:
+        - name: scanfile
+          mountPath: /home/daniele/Daniele/myData/scanfile
+      volumes:
+      - name: scanfile
+        hostPath:
+          path: /home/daniele/Daniele/myData/scanfile
+        

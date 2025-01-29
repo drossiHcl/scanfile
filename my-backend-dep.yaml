@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-backend-test
+  namespace: daniele
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-backend-test
+  template:
+    metadata:
+      labels:
+        app: my-backend-test
+    spec:
+      containers:
+      - name: my-backend-test
+        image: k8s-master.local:5000/daniele-my-backend-test:latest
+        ports:
+        - containerPort: ${GRPC_SERVER_PORT}
+        volumeMounts:
+        - name: scanfile
+          mountPath: /home/daniele/Daniele/myData/scanfile
+      volumes:
+      - name: scanfile
+        hostPath:
+          path: /home/daniele/Daniele/myData/scanfile

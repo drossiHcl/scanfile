@@ -44,11 +44,12 @@ func init() {
 
 func main() {
 
-	fmt.Println("Hello I'm the Frontend ...")
+	fmt.Println("Hello I'm the Frontend v1.0 ...")
 
 	http.Handle("/index/", http.HandlerFunc(index))
 	http.Handle("/reqdata", http.HandlerFunc(requestData))
 	err := http.ListenAndServe(":8082", nil)
+	// err := http.ListenAndServe(":30002", nil)
 	if err != nil {
 		fmt.Println("ListenAndServe failed ", err)
 	}
@@ -124,7 +125,8 @@ func sendRequest(fileName string, language string, maxNumber uint32, list string
 		opts = append(opts, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	}
 
-	cc, err := grpc.Dial("mounttest:50051", opts...)
+	// cc, err := grpc.Dial("mounttest:50051", opts...)
+	cc, err := grpc.Dial("my-backend-test:50051", opts...)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}
