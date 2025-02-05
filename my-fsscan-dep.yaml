@@ -19,10 +19,25 @@ spec:
         ports:
         - containerPort: ${GRPC_SERVER_PORT}
         volumeMounts:
-        - name: scanfile
-          mountPath: /home/daniele/Daniele/myData/scanfile
+        - name: scanfile-data
+          mountPath: /app/myData/scanfile
+        - name: scanfile-env
+          mountPath: /app/data
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        envFrom:
+        - configMapRef:
+            name: my-scanfile-config
       volumes:
-      - name: scanfile
+      - name: scanfile-data
         hostPath:
-          path: /home/daniele/Daniele/myData/scanfile
+          path: ${SCANFILE_BASEDIR}myData/scanfile
+      - name: scanfile-env
+        hostPath:
+          path: ${SCANFILE_BASEDIR}scanfile/data
         

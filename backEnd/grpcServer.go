@@ -28,7 +28,10 @@ type server struct {
 func GrpcServer() {
 	util.MyLog("Hello world I'm a Backend ...\n")
 
-	lis, err := net.Listen("tcp", ":50051")
+	grpcServerPort := os.Getenv("GRPC_SERVER_PORT")
+
+	util.MyLog("... listening on grpcServerPort\n")
+	lis, err := net.Listen("tcp", ":"+grpcServerPort)
 	if err != nil {
 		log.Fatalf("Failed to listen: %v", err)
 	}

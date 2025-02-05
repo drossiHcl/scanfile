@@ -2,8 +2,15 @@
 
 # Commands:
 # go build
-# docker build -t my-fsscan-test .
-# docker run -d --net fsscan-net -it --name mounttest1 --mount type=bind,source=/home/drossi/myTest,target=/home/drossi/myTest my-fsscan-test
+# docker build -t my-frontend-test .
+# or
+# docker build -t my-frontend-test -f frontEnd/Dockerfile .
+
+# docker run -d --net fsscan-net -it -p 50051:50051 --name mounttest --mount type=bind,source=/home/drossi/myTest,target=/home/drossi/myTest my-frontend-test
+# or
+# deploy with k8s:
+# envsubst < my-frontend-dep.yaml | kubectl apply -f -
+
 
 # Start from the latest golang base image
 # FROM golang:latest as builder
@@ -16,15 +23,6 @@ ARG HTTP_FRONTEND_PORT
 LABEL maintainer="Dan"
 
 # Set the Current Working Directory inside the container
-WORKDIR /home
-RUN mkdir daniele
-WORKDIR /home/daniele
-RUN mkdir Daniele
-WORKDIR /home/daniele/Daniele
-RUN mkdir scanfile
-WORKDIR /home/daniele/Daniele/scanfile
-RUN ls
-RUN pwd
 RUN mkdir /app
 WORKDIR /app
 RUN mkdir templates

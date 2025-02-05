@@ -7,6 +7,8 @@ import (
 	"io"
 	"log"
 	"net/http"
+
+	"os"
 	"strconv"
 
 	pbscan "scanfile.com/scanfile/proto"
@@ -48,12 +50,15 @@ func main() {
 
 	http.Handle("/index/", http.HandlerFunc(index))
 	http.Handle("/reqdata", http.HandlerFunc(requestData))
-	err := http.ListenAndServe(":8082", nil)
-	// err := http.ListenAndServe(":30002", nil)
-	if err != nil {
-		fmt.Println("ListenAndServe failed ", err)
-	}
 
+	httpPort := os.Getenv("HTTP_FRONTEND_PORT")
+	fmt.Printf("ListenAndServe on http port %s\n", httpPort)
+	err := http.ListenAndServe(":"+httpPort, nil)
+	// err := http.ListenAndServe(":8082", nil)
+	if err != nil {
+		fmt.Printf("ListenAndServe failed %v", err)
+	}
+	fmt.Printf("Out of ListenAndServe on port 8082")
 }
 
 func index(w http.ResponseWriter, req *http.Request) {
@@ -125,8 +130,9 @@ func sendRequest(fileName string, language string, maxNumber uint32, list string
 		opts = append(opts, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	}
 
-	// cc, err := grpc.Dial("mounttest:50051", opts...)
-	cc, err := grpc.Dial("my-backend-test:50051", opts...)
+	grpcServerPort := os.Getenv("GRPC_SERVER_PORT")
+	fmt.Printf("Dial on grpc port %s\n", grpcServerPort)
+	cc, err := grpc.Dial("my-backend-test:"+grpcServerPort, opts...)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}

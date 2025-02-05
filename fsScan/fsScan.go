@@ -111,7 +111,8 @@ func main() {
 func myInit() {
 	var f *os.File = nil
 
-	err := util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
+	baseEnvFileName := os.Getenv("APP_SCANFILE_BASEDIR")
+	err := util.LoadEnv(baseEnvFileName + "data/local.env")
 	if err != nil {
 		log.Fatalf("error opening ENV file: %v", err)
 	}
@@ -213,8 +214,9 @@ func sendRequest() (*pbscan.TriggerBackendRes, *grpc.ClientConn, error) {
 		opts = append(opts, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	}
 
-	// cc, err := grpc.Dial("mounttest:50051", opts...)
-	cc, err := grpc.Dial("my-backend-test:50051", opts...)
+	grpcServerPort := os.Getenv("GRPC_SERVER_PORT")
+	util.MyLog("Dialling grpc Server Port")
+	cc, err := grpc.Dial("my-backend-test:"+grpcServerPort, opts...)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}

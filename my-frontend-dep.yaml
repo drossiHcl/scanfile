@@ -19,3 +19,13 @@ spec:
         ports:
         - containerPort: ${HTTP_FRONTEND_PORT}
         - containerPort: ${GRPC_SERVER_PORT}
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        envFrom:
+        - configMapRef:
+            name: my-scanfile-config

@@ -47,7 +47,8 @@ func main() {
 func myInit() {
 	var f *os.File = nil
 
-	err := util.LoadEnv("/home/daniele/Daniele/scanfile/data/local.env")
+	baseEnvFileName := os.Getenv("APP_SCANFILE_BASEDIR")
+	err := util.LoadEnv(baseEnvFileName + "data/local.env")
 	if err != nil {
 		log.Fatalf("error opening ENV file: %v", err)
 	}
