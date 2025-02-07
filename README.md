@@ -1,5 +1,31 @@
 # scanfile
 
+# Steps to install
+
+1) choose a folder where to install and run:
+   $git clone https://github.com/drossiHcl/scanfile.git
+2) Go to your home directory.
+   Edit the file .bashrc and add the following lines
+
+   export HTTP_FRONTEND_PORT=8082
+   export HTTP_FRONTEND_NODEPORT=30002
+   export GRPC_SERVER_PORT=50051
+   export SCANFILE_BASEDIR=<pathname of the folder you choose in step 1 including trailing />
+   export APP_SCANFILE_BASEDIR="/app/"
+   
+   then run:
+   source .bashrc
+
+3) go back to the folder of step 1
+   $ cd scanfile
+   $ source ./install-scanfile.bash
+   
+4) You are ready to deploy with the following command
+   source ./deploy_envsubst.bash
+   
+5) Access the system at the following url from the browser your host
+   http://localhost:30002/index/
+
 
 
 Data input/output folders and files are in .../scanfile/../myData/scanfile

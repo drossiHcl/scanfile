@@ -1,0 +1,62 @@
+###############################################
+####DaScartare
+###############################################
+
+###############################################
+#####Congiunzioni
+###############################################
+dove inoltre ancora
+pero dunque anzi
+che perche percio finche
+anche neanche neppure ovvero ossia
+oppure tuttavia anzi infatti
+cioe quindi percio sia siccome
+come quando mentre sebbene quantunque
+qualora dopo prima ogni spesso
+
+###############################################
+#####Preposizioni
+###############################################
+con per tra fra
+del dello della	dell dei
+degli delle allo alla all
+agli alle dal dallo dalla
+dall dai dagli dalle nel
+nello nella nell nei negli
+nelle sul sullo	sulla sull
+sui sugli sulle col coi
+
+###############################################
+#####Articoli
+###############################################
+una uno gli
+
+###############################################
+#####Avverbi
+###############################################
+sopra sotto qui fuori dentro
+abbastanza poco molto troppo subito
+poi sempre davvero sicuramente non
+mai giammai nemmeno forse probabilmente
+taluni tale tali tanto stesso stessa
+stessi stesse presso solo sola
+
+###############################################
+#####PronomiEtc
+###############################################
+mio tuo suo nostro vostro
+mia tua sua loro esso
+essi noi essa voi ella
+ello egli sue suoi miei
+cui costoro quegli quello quelli
+quegli quali quale questo questa
+quella
+
+###############################################
+#####Verbi
+###############################################
+sono erano furono saranno
+ero fui saro era sara
+avevo avevamo avevate avranno avevano
+ebbero ebbi abbi avevi aveva
+essere avere hanno abbiamo abbiate

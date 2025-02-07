@@ -1,0 +1,82 @@
+###############################################
+#####paroleDaScartare
+###############################################
+
+###############################################
+#####Congiunzioni
+###############################################
+and but yet nor neither
+after although though much soon
+because before even then that
+till until unless when where
+while not this these those
+
+###############################################
+#####Preposizioni
+###############################################
+about above according across after
+against along amid among around
+before behind below beside besides
+between beyond concerning down during
+except for from into like
+off over past since through
+toward underneath until upon with
+within without
+
+###############################################
+#####ArticoliEtc
+###############################################
+the some any are was
+were
+
+###############################################
+#####Pronomi
+###############################################
+mine yours they them who
+our ours you your their
+yourself themself myself ourself itsself
+its can cannot does did
+will shall which been should
+could has have every she
+would had his him her
+
+###############################################
+#####Avverbi
+###############################################
+also very often however	too
+usually	really	early never always 
+sometimes together likely simply generally 
+instead	actually again rather almost 
+especiallyever quickly probably already 
+below directly therefore else thus 
+easily eventually exactly certainly normally 
+currently extremely finally constantly properly 
+soon specifically ahead daily highly 
+immediately slowly fairly primarily completely 
+widely recently seriously frequently fully 
+mostly naturally nearly occasionally carefully 
+clearly	essentially possibly slightly somewhat 
+equally greatly necessarily personally rarely 
+regularly similarly basically closely effectively 
+initially mainly merely gently hopefully 
+originally roughly totally twice elsewhere 
+everywhere obviously perfectly physically successfully 
+suddenly truly altogether anyway automatically 
+deeply definitely deliberately hardly unfortunately 
+briefly moreover strongly honestly previously 
+there when how out only
+well then first where why 
+now around once down off 
+here away far quite later 
+above yet maybe otherwise near 
+forward somewhere anywhere please forever 
+somehow absolutely abroad yeah nowhere 
+more about such through just 
+any each much before between 
+since both sure without back 
+better enough lot small though 
+less under next least within 
+along lower across proper ago 
+behind quick straight pretty overall 
+whatever whenever nearby apart none 
+aside weekly most
