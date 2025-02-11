@@ -16,6 +16,37 @@ spec:
       containers:
       - name: my-frontend-test
         image: k8s-master.local:5000/daniele-my-frontend-test:latest
+        env:
+        - name: USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: username
+        - name: PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: password
+        - name: USERNAME2
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: username2
+        - name: PASSWORD2
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: password2
+        - name: USERNAME3
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: username3
+        - name: PASSWORD3
+          valueFrom:
+            secretKeyRef:
+              name: scanfile-secret
+              key: password3
         ports:
         - containerPort: ${HTTP_FRONTEND_PORT}
         - containerPort: ${GRPC_SERVER_PORT}

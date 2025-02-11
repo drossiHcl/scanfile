@@ -1,4 +1,5 @@
 kubectl apply -f my-scanfile-configmap.yaml
+kubectl apply -f my-scanfile-secret.yaml
 envsubst < my-backend-dep.yaml | kubectl apply -f -
 sleep 1
 envsubst < my-backend-svc.yaml | kubectl apply -f -

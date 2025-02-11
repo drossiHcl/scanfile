@@ -48,8 +48,8 @@ func main() {
 
 	fmt.Println("Hello I'm the Frontend v1.0 ...")
 
-	http.Handle("/index/", http.HandlerFunc(index))
-	http.Handle("/reqdata", http.HandlerFunc(requestData))
+	http.Handle("/index/", basicAuth(http.HandlerFunc(index)))
+	http.Handle("/reqdata", basicAuth(http.HandlerFunc(requestData)))
 
 	httpPort := os.Getenv("HTTP_FRONTEND_PORT")
 	fmt.Printf("ListenAndServe on http port %s\n", httpPort)
@@ -60,6 +60,72 @@ func main() {
 	}
 	fmt.Printf("Out of ListenAndServe on port 8082")
 }
+
+func basicAuth(next http.HandlerFunc) http.HandlerFunc {
+	// Define a map to store multiple users and their passwords
+	users := map[string]string{
+		os.Getenv("USERNAME"):  os.Getenv("PASSWORD"),
+		os.Getenv("USERNAME2"): os.Getenv("PASSWORD2"),
+		os.Getenv("USERNAME3"): os.Getenv("PASSWORD3"),
+	}
+
+	// Check if any of the environment variables are not set
+	for ux, px := range users {
+		if ux == "" || px == "" {
+			fmt.Println("One or more environment variables for users or passwords are not set")
+			return nil
+		}
+	}
+
+	return func(w http.ResponseWriter, r *http.Request) {
+		user_ok := false
+		user, pass, ok := r.BasicAuth()
+		if !ok {
+			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
+			http.Error(w, "Unauthorized", http.StatusUnauthorized)
+			return
+		}
+		for u, p := range users {
+			if u == user && p != pass {
+				w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
+				http.Error(w, "Unauthorized", http.StatusUnauthorized)
+				return
+			} else if u == user {
+				user_ok = true
+			}
+		}
+		if !user_ok {
+			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
+			http.Error(w, "Unauthorized", http.StatusUnauthorized)
+			return
+		}
+		next(w, r)
+	}
+}
+
+/* ONE USER ONLY func basicAuth(next http.HandlerFunc) http.HandlerFunc {
+
+	username := os.Getenv("USERNAME")
+	password := os.Getenv("PASSWORD")
+
+	if username == "" || password == "" {
+		fmt.Println("Environment variables USERNAME or PASSWORD are not set")
+		return nil
+	}
+
+	fmt.Printf("Username: %s\n", username)
+	fmt.Printf("Password: %s\n", password)
+
+	return func(w http.ResponseWriter, r *http.Request) {
+		user, pass, ok := r.BasicAuth()
+		if !ok || user != username || pass != password {
+			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
+			http.Error(w, "Unauthorized", http.StatusUnauthorized)
+			return
+		}
+		next(w, r)
+	}
+} */
 
 func index(w http.ResponseWriter, req *http.Request) {
 	fmt.Println("Index Handler")
