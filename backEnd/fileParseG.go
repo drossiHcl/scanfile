@@ -7,6 +7,7 @@ import (
 	"os"
 	"sort"
 	"sync"
+	"time"
 
 	types "scanfile.com/scanfile/types_pkg"
 	util "scanfile.com/scanfile/util_pkg"
@@ -42,6 +43,15 @@ func main() {
 	// Init and start gRPC server
 	GrpcServer()
 	//printListDs(WordsListToSkip_ita)
+
+	// Periodically check the log file size
+	ticker := time.NewTicker(10 * time.Minute)
+	defer ticker.Stop()
+	for range ticker.C {
+		util.MyLog("TICKER elapsed, check log file ... \n\n")
+		_ = util.CheckRotateLogFile(types.BackendFLog, "backEnd")
+	}
+
 }
 
 func myInit() {
@@ -54,7 +64,7 @@ func myInit() {
 	}
 
 	f, err = os.Create((types.Env_log_dir + "log_backEnd.log"))
-	types.FLog = f
+	types.BackendFLog = f
 	if err != nil {
 		log.Fatalf("error opening LOG file: %v", err)
 	}

@@ -21,6 +21,8 @@ import (
 var nonAlphanumericRegex = regexp.MustCompile(`[^a-zA-Z0-9 ]+`)
 
 func MyLog(format string, args ...interface{}) {
+	types.LockLogs.Lock()
+	defer types.LockLogs.Unlock()
 	l := fmt.Sprintf(format, args...)
 	log.Println(l)
 }
@@ -308,6 +310,12 @@ func LoadEnv(fileEnvName string) error {
 	}
 	fmt.Printf("TIMER FSSCAN loading env %d \n", types.Env_timer_fsscan)
 
+	types.Env_maxsize_logfile, err = strconv.ParseInt((os.Getenv("MAXSIZE_LOGFILE")), 10, 64)
+	if err != nil {
+		fmt.Printf("Error in Atoi 5 loading env %d \n", err)
+	}
+	fmt.Printf("MAXSIZE LOGFILE loading env %d \n", types.Env_maxsize_logfile)
+
 	types.Env_log_dir = os.Getenv("LOG_DIR")
 	types.Env_data_dascartare_dir = os.Getenv("DATA_DASCARTARE_DIR")
 	types.Env_data_textfiles_name = os.Getenv("DATA_TEXTFILES_NAME")
@@ -320,4 +328,60 @@ func LoadEnv(fileEnvName string) error {
 	types.Env_data_output_textfiles_ita_dir = os.Getenv("DATA_OUTPUT_TEXTFILES_ITA_DIR")
 	types.Env_data_output_textfiles_eng_dir = os.Getenv("DATA_OUTPUT_TEXTFILES_ENG_DIR")
 	return err
+}
+
+func CheckRotateLogFile(f *os.File, caller string) error {
+	types.LockLogs.Lock()
+	defer types.LockLogs.Unlock()
+
+	var fnew *os.File = nil
+
+	fileInfo, err := f.Stat()
+	if err != nil {
+		fmt.Printf("Error getting file info : %v", err)
+		return err
+	}
+
+	if fileInfo.Size() > types.Env_maxsize_logfile {
+		fmt.Printf("Log File Size exceeded, rotating log file...")
+		fmt.Printf("OLD fp : %v", f)
+		// Close the current log file
+		err = f.Sync()
+		if err != nil {
+			fmt.Printf("Error synching file : %v", err)
+			return err
+		}
+		err = f.Close()
+		if err != nil {
+			fmt.Printf("Error closing file : %v", err)
+			return err
+		}
+
+		// Rename the current log file
+		err = os.Rename(types.Env_log_dir+"log_"+caller+".log", types.Env_log_dir+"log_"+caller+".log.old")
+		if err != nil {
+			fmt.Printf("Error rotating log file : %v", err)
+			return err
+		}
+
+		fnew, err = os.Create((types.Env_log_dir + "log_" + caller + ".log"))
+		fmt.Printf("NEW fp : %v", fnew)
+		if err != nil {
+			fmt.Printf("Error opening new LOG file: %v", err)
+			return err
+		}
+		if caller == "fsScan" {
+			types.FsscanFLog = fnew
+			fmt.Printf("NEW fp 1 : %v", types.FsscanFLog)
+			log.SetOutput(types.FsscanFLog)
+		} else if caller == "backEnd" {
+			types.BackendFLog = fnew
+			fmt.Printf("NEW fp 1 : %v", types.BackendFLog)
+			log.SetOutput(types.BackendFLog)
+		}
+
+		log.SetPrefix(caller + " ")
+		log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
+	}
+	return nil
 }

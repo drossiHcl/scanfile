@@ -3,6 +3,7 @@ package types
 import (
 	"bufio"
 	"os"
+	"sync"
 
 	"github.com/pemistahl/lingua-go"
 )
@@ -12,7 +13,8 @@ var (
 	Env_max_words            int
 	Env_max_words_percentage int
 
-	Env_timer_fsscan int
+	Env_timer_fsscan    int
+	Env_maxsize_logfile int64
 
 	Env_log_dir string // const LOG_DIR = "/home/daniele/Daniele/scanfile/log/"
 
@@ -55,7 +57,9 @@ var WordsListToSkip []WordListToSkipT
 var WordsListToSkip_eng []WordListToSkipT
 var WordsListToSkip_ita []WordListToSkipT
 
-var FLog *os.File = nil
+var BackendFLog *os.File = nil
+var FsscanFLog *os.File = nil
+var LockLogs sync.Mutex
 
 var Languages = []lingua.Language{
 	lingua.English,

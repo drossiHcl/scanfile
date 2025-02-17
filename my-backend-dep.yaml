@@ -4,7 +4,7 @@ metadata:
   name: my-backend-test
   namespace: daniele
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: my-backend-test

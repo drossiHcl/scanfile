@@ -18,7 +18,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 )
 
-var FLog *os.File = nil
+// var FLog *os.File = nil
 
 var wg sync.WaitGroup
 
@@ -26,7 +26,7 @@ func main() {
 	filesToProcess := false
 	myInit()
 	util.MyLog("Hello world I'm a Fs Scan ...\n")
-	mins := 1
+	mins := 0
 	for {
 
 		t1 := time.NewTimer(time.Duration(types.Env_timer_fsscan) * time.Second)
@@ -92,6 +92,18 @@ func main() {
 
 		util.MyLog("****** After Wait, filesToProcess %v ", filesToProcess)
 
+		mins++
+		util.MyLog("Current Mins %d ", mins)
+		// Periodically check the log file size
+		if mins == 30 {
+			util.MyLog("Check Log Files %d ", mins)
+			rotateErr := util.CheckRotateLogFile(types.FsscanFLog, "fsScan")
+			if rotateErr != nil {
+				util.MyLog("error rotating func: %v", rotateErr)
+			}
+			mins = 0
+		}
+
 		// Trigger backEnd via gRPC
 		if filesToProcess {
 			resultP, cconn, err := sendRequest()
@@ -103,13 +115,12 @@ func main() {
 			util.MyLog("End %d %d ", getRes, mins)
 			filesToProcess = false
 		}
-		mins++
 		// TODO Every hour (or more) clean dirs
 	}
 }
 
 func myInit() {
-	var f *os.File = nil
+	// var f *os.File = nil
 
 	baseEnvFileName := os.Getenv("APP_SCANFILE_BASEDIR")
 	err := util.LoadEnv(baseEnvFileName + "data/local.env")
@@ -117,13 +128,12 @@ func myInit() {
 		log.Fatalf("error opening ENV file: %v", err)
 	}
 
-	f, err = os.Create((types.Env_log_dir + "log_fsScan.log"))
-	FLog = f
+	types.FsscanFLog, err = os.Create((types.Env_log_dir + "log_fsScan.log"))
 	if err != nil {
 		log.Fatalf("error opening LOG file: %v", err)
 	}
 
-	log.SetOutput(f)
+	log.SetOutput(types.FsscanFLog)
 	log.SetPrefix("FsScan ")
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 

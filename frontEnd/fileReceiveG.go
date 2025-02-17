@@ -103,30 +103,6 @@ func basicAuth(next http.HandlerFunc) http.HandlerFunc {
 	}
 }
 
-/* ONE USER ONLY func basicAuth(next http.HandlerFunc) http.HandlerFunc {
-
-	username := os.Getenv("USERNAME")
-	password := os.Getenv("PASSWORD")
-
-	if username == "" || password == "" {
-		fmt.Println("Environment variables USERNAME or PASSWORD are not set")
-		return nil
-	}
-
-	fmt.Printf("Username: %s\n", username)
-	fmt.Printf("Password: %s\n", password)
-
-	return func(w http.ResponseWriter, r *http.Request) {
-		user, pass, ok := r.BasicAuth()
-		if !ok || user != username || pass != password {
-			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
-			http.Error(w, "Unauthorized", http.StatusUnauthorized)
-			return
-		}
-		next(w, r)
-	}
-} */
-
 func index(w http.ResponseWriter, req *http.Request) {
 	fmt.Println("Index Handler")
 	err := tpl.ExecuteTemplate(w, "index.gohtml", nil)
