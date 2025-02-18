@@ -18,8 +18,6 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 )
 
-// var FLog *os.File = nil
-
 var wg sync.WaitGroup
 
 func main() {
@@ -30,79 +28,31 @@ func main() {
 	for {
 
 		t1 := time.NewTimer(time.Duration(types.Env_timer_fsscan) * time.Second)
+		<-t1.C
 
-		wg.Add(1)
+		// scan dir(s) named DATA_FILES_FOLDER
+		dirList, nbrFiles := util.ListDir(types.Env_data_files_folder)
+		util.MyLog("****** Files: %v NBR %d", dirList, nbrFiles)
+
+		fToProcess := make(chan bool)
+		// range over files
+		for _, fn := range dirList {
+			wg.Add(1)
+			go scanInputFiles(fn, fToProcess)
+		}
 
 		go func() {
-
-			defer wg.Done()
-			<-t1.C
-
-			// scan dir(s) named DATA_FILES_FOLDER
-			dirList, nbrFiles := util.ListDir(types.Env_data_files_folder)
-			util.MyLog("****** Files: %v NBR %d", dirList, nbrFiles)
-
-			// range over files
-			for _, fn := range dirList {
-
-				util.MyLog("****** File : %s %s", fn, (types.Env_data_processed_textfiles_ita_dir + fn))
-				// if destination already exixsts, skip it
-				if util.FileExists((types.Env_data_processed_textfiles_ita_dir + fn)) {
-					continue
-				}
-				if util.FileExists((types.Env_data_processed_textfiles_eng_dir + fn)) {
-					continue
-				}
-
-				fullFileName := types.Env_data_files_folder + fn
-
-				if f1, fTyp := isFileTypeHandled(fullFileName); f1 {
-					var destination string
-
-					lang, err := util.DetectLang(fullFileName)
-					if err != nil {
-						log.Fatal(err)
-					}
-
-					if lang == "Italian" {
-						destination = (types.Env_data_textfiles_ita_dir + fn)
-					} else if lang == "English" {
-						destination = (types.Env_data_textfiles_eng_dir + fn)
-					}
-					util.MyLog("src %s dest %s lang %s", fullFileName, destination, lang)
-
-					if fTyp == "ASCII" {
-						_, err = util.CopyFile(fullFileName, destination)
-					} else {
-						err = util.ConvertAndCopyFile(fullFileName, destination, fTyp)
-					}
-					if err != nil {
-						util.MyLog("Error converting or copying file %s %v\n\n", fullFileName, err)
-						// log.Fatal(err)
-					}
-					if err == nil {
-						filesToProcess = true
-					}
-				}
-				util.MyLog("Timer 1 %d ", nbrFiles)
-			}
+			wg.Wait()
+			close(fToProcess)
 		}()
 
-		wg.Wait()
+		for i := range fToProcess {
+			if i {
+				filesToProcess = true
+			}
+		}
 
 		util.MyLog("****** After Wait, filesToProcess %v ", filesToProcess)
-
-		mins++
-		util.MyLog("Current Mins %d ", mins)
-		// Periodically check the log file size
-		if mins == 30 {
-			util.MyLog("Check Log Files %d ", mins)
-			rotateErr := util.CheckRotateLogFile(types.FsscanFLog, "fsScan")
-			if rotateErr != nil {
-				util.MyLog("error rotating func: %v", rotateErr)
-			}
-			mins = 0
-		}
 
 		// Trigger backEnd via gRPC
 		if filesToProcess {
@@ -115,12 +65,74 @@ func main() {
 			util.MyLog("End %d %d ", getRes, mins)
 			filesToProcess = false
 		}
-		// TODO Every hour (or more) clean dirs
+
+		// TOFIX Every hour (or more) clean dirs
+		mins++
+		util.MyLog("Current Mins %d ", mins)
+		// Periodically check the log file size
+		if mins == 30 {
+			util.MyLog("Check Log Files %d ", mins)
+			rotateErr := util.CheckRotateLogFile(types.FsscanFLog, "fsScan")
+			if rotateErr != nil {
+				util.MyLog("error rotating func: %v", rotateErr)
+			}
+			mins = 0
+		}
+	}
+}
+
+func scanInputFiles(fn string, fToProc chan bool) {
+
+	defer wg.Done()
+
+	util.MyLog("****** File : %s %s", fn, (types.Env_data_processed_textfiles_ita_dir + fn))
+	// if destination already exixsts, skip it
+	if util.FileExists((types.Env_data_processed_textfiles_ita_dir + fn)) {
+		fToProc <- false
+		return
+	}
+	if util.FileExists((types.Env_data_processed_textfiles_eng_dir + fn)) {
+		fToProc <- false
+		return
+	}
+
+	fullFileName := types.Env_data_files_folder + fn
+
+	if f1, fTyp := isFileTypeHandled(fullFileName); f1 {
+		var destination string
+
+		lang, err := util.DetectLang(fullFileName)
+		if err != nil {
+			fToProc <- false
+			log.Fatal(err)
+		}
+
+		if lang == "Italian" {
+			destination = (types.Env_data_textfiles_ita_dir + fn)
+		} else if lang == "English" {
+			destination = (types.Env_data_textfiles_eng_dir + fn)
+		}
+		util.MyLog("src %s dest %s lang %s", fullFileName, destination, lang)
+
+		if fTyp == "ASCII" {
+			_, err = util.CopyFile(fullFileName, destination)
+		} else {
+			err = util.ConvertAndCopyFile(fullFileName, destination, fTyp)
+		}
+		if err != nil {
+			util.MyLog("Error converting or copying file %s %v\n\n", fullFileName, err)
+		}
+		if err == nil {
+			fToProc <- true
+		} else {
+			fToProc <- false
+		}
+	} else {
+		fToProc <- false
 	}
 }
 
 func myInit() {
-	// var f *os.File = nil
 
 	baseEnvFileName := os.Getenv("APP_SCANFILE_BASEDIR")
 	err := util.LoadEnv(baseEnvFileName + "data/local.env")
