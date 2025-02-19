@@ -46,8 +46,8 @@ func main() {
 			close(fToProcess)
 		}()
 
-		for i := range fToProcess {
-			if i {
+		for fTP := range fToProcess {
+			if fTP {
 				filesToProcess = true
 			}
 		}
@@ -66,7 +66,7 @@ func main() {
 			filesToProcess = false
 		}
 
-		// TOFIX Every hour (or more) clean dirs
+		// Every 10 mins rotate log
 		mins++
 		util.MyLog("Current Mins %d ", mins)
 		// Periodically check the log file size
@@ -85,7 +85,7 @@ func scanInputFiles(fn string, fToProc chan bool) {
 
 	defer wg.Done()
 
-	util.MyLog("****** File : %s %s", fn, (types.Env_data_processed_textfiles_ita_dir + fn))
+	// util.MyLog("****** File : %s %s", fn, (types.Env_data_processed_textfiles_ita_dir + fn))
 	// if destination already exixsts, skip it
 	if util.FileExists((types.Env_data_processed_textfiles_ita_dir + fn)) {
 		fToProc <- false
@@ -97,22 +97,25 @@ func scanInputFiles(fn string, fToProc chan bool) {
 	}
 
 	fullFileName := types.Env_data_files_folder + fn
+	util.MyLog("fullFileName do not exist : %s", fullFileName)
 
 	if f1, fTyp := isFileTypeHandled(fullFileName); f1 {
 		var destination string
 
-		lang, err := util.DetectLang(fullFileName)
-		if err != nil {
-			fToProc <- false
-			log.Fatal(err)
-		}
+		util.MyLog("fullFileName is handled : %s %s", fullFileName, fTyp)
 
+		lang, err := util.DetectLang(fullFileName)
+		if err != nil || (lang != "Italian" && lang != "English") {
+			fToProc <- false
+			util.MyLog("Error detecting lang(%s) file %s %v\n\n", lang, fullFileName, err)
+			return
+		}
 		if lang == "Italian" {
 			destination = (types.Env_data_textfiles_ita_dir + fn)
 		} else if lang == "English" {
 			destination = (types.Env_data_textfiles_eng_dir + fn)
 		}
-		util.MyLog("src %s dest %s lang %s", fullFileName, destination, lang)
+		util.MyLog("src %s destination %s lang %s", fullFileName, destination, lang)
 
 		if fTyp == "ASCII" {
 			_, err = util.CopyFile(fullFileName, destination)
@@ -121,13 +124,14 @@ func scanInputFiles(fn string, fToProc chan bool) {
 		}
 		if err != nil {
 			util.MyLog("Error converting or copying file %s %v\n\n", fullFileName, err)
-		}
-		if err == nil {
-			fToProc <- true
-		} else {
 			fToProc <- false
+			return
 		}
+
+		fToProc <- true
+
 	} else {
+		util.MyLog("In scanInputFiles file %s not handled Type=%s", fullFileName, fTyp)
 		fToProc <- false
 	}
 }
@@ -149,10 +153,10 @@ func myInit() {
 	log.SetPrefix("FsScan ")
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
 
-	myEnv := os.Environ()
-	for _, e := range myEnv {
-		util.MyLog("%v\n", e)
-	}
+	// myEnv := os.Environ()
+	// for _, e := range myEnv {
+	// 	util.MyLog("%v\n", e)
+	// }
 
 	log.Println("********************** FsScan Started *********************")
 }

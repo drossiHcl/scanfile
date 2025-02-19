@@ -4,7 +4,7 @@ metadata:
   name: my-fsscan-test
   namespace: daniele
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: my-fsscan-test
