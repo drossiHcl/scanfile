@@ -46,19 +46,32 @@ func init() {
 
 func main() {
 
-	fmt.Println("Hello I'm the Frontend v1.0 ...")
+	// ===
+	f, err := os.Create(("/tmp/log_frontEnd.log"))
+	if err != nil {
+		log.Fatalf("error opening LOG file: %v", err)
+	}
+
+	log.SetOutput(f)
+	log.SetPrefix("FrontEndEnd ")
+	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
+
+	log.Println("********************** Frontend Started *********************")
+	// ===
+
+	log.Println("Hello I'm the Frontend v1.0 ...")
 
 	http.Handle("/index/", basicAuth(http.HandlerFunc(index)))
 	http.Handle("/reqdata", basicAuth(http.HandlerFunc(requestData)))
 
 	httpPort := os.Getenv("HTTP_FRONTEND_PORT")
-	fmt.Printf("ListenAndServe on http port %s\n", httpPort)
-	err := http.ListenAndServe(":"+httpPort, nil)
+	log.Printf("ListenAndServe on http port %s\n", httpPort)
+	err = http.ListenAndServe(":"+httpPort, nil)
 	// err := http.ListenAndServe(":8082", nil)
 	if err != nil {
-		fmt.Printf("ListenAndServe failed %v", err)
+		log.Printf("ListenAndServe failed %v", err)
 	}
-	fmt.Printf("Out of ListenAndServe on port 8082")
+	log.Printf("Out of ListenAndServe on port 8082")
 }
 
 func basicAuth(next http.HandlerFunc) http.HandlerFunc {
@@ -104,25 +117,25 @@ func basicAuth(next http.HandlerFunc) http.HandlerFunc {
 }
 
 func index(w http.ResponseWriter, req *http.Request) {
-	fmt.Println("Index Handler")
-	err := tpl.ExecuteTemplate(w, "index.gohtml", nil)
-	HandleError(w, err)
+	log.Println("Index Handler")
+	err1 := tpl.ExecuteTemplate(w, "index.gohtml", nil)
+	HandleError(w, err1)
 }
 
 func requestData(w http.ResponseWriter, req *http.Request) {
 	results_list = nil
 	listResult = nil
-	fmt.Println("Request data Handler")
+	log.Println("Request data Handler")
 	err := req.ParseForm()
 	HandleError(w, err)
 	fName := req.FormValue("NameFile")
 	lang := req.FormValue("Language")
 	maxn, _ := strconv.Atoi(req.FormValue("Maxnum"))
 	listOnly := req.FormValue("listonly")
-	fmt.Println(fName)
-	fmt.Println(lang)
-	fmt.Println(maxn)
-	fmt.Println(listOnly)
+	log.Println(fName)
+	log.Println(lang)
+	log.Println(maxn)
+	log.Println(listOnly)
 
 	// Send request to backEnd
 	resultsStream, cconn, err := sendRequest(fName, lang, uint32(maxn), listOnly)
@@ -139,7 +152,7 @@ func requestData(w http.ResponseWriter, req *http.Request) {
 
 	// Send data to browser
 	if listResult == nil {
-		fmt.Println("*** *** RES *** ***", len(results_list))
+		log.Println("*** *** RES *** ***", len(results_list))
 		for _, f := range results_list {
 			_ = tpl.ExecuteTemplate(w, "something.gohtml", f.File.PathName)
 			_ = tpl.ExecuteTemplate(w, "something.gohtml", f.File.Language)
@@ -173,14 +186,14 @@ func sendRequest(fileName string, language string, maxNumber uint32, list string
 	}
 
 	grpcServerPort := os.Getenv("GRPC_SERVER_PORT")
-	fmt.Printf("Dial on grpc port %s\n", grpcServerPort)
+	log.Printf("Dial on grpc port %s\n", grpcServerPort)
 	cc, err := grpc.Dial("my-backend-test:"+grpcServerPort, opts...)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}
 	c := pbscan.NewScanStatServiceClient(cc)
-	fmt.Println("Created client.")
-	fmt.Println("Frontend does a request to the Backend to receive Streaming RPC ...")
+	log.Println("Created client.")
+	log.Println("Frontend does a request to the Backend to receive Streaming RPC ...")
 
 	req := &pbscan.FsRequest{
 		Lang: language,
@@ -191,7 +204,7 @@ func sendRequest(fileName string, language string, maxNumber uint32, list string
 
 	resStream, err := c.GetFilesStats(context.Background(), req)
 	if err != nil {
-		fmt.Printf("error while calling GetFilesStats RPC: %v", err)
+		log.Printf("error while calling GetFilesStats RPC: %v", err)
 		return nil, cc, err
 	}
 	return resStream, cc, nil

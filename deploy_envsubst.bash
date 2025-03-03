@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+
+kubectl apply -f my-backend-hpa.yaml
+kubectl apply -f my-frontend-hpa.yaml
+kubectl apply -f my-fsscan-hpa.yaml
 kubectl apply -f my-scanfile-configmap.yaml
 kubectl apply -f my-scanfile-secret.yaml
 envsubst < my-backend-dep.yaml | kubectl apply -f -

@@ -18,10 +18,10 @@
 
 3) go back to the folder of step 1
    $ cd scanfile
-   $ source ./install-scanfile.bash
+   $ ./install-scanfile.bash
    
 4) You are ready to deploy with the following command
-   source ./deploy_envsubst.bash
+   ./deploy_envsubst.bash
    
 5) Access the system at the following url from the browser your host
    http://localhost:30002/index/

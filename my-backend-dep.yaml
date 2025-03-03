@@ -4,7 +4,7 @@ metadata:
   name: my-backend-test
   namespace: daniele
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
       app: my-backend-test
@@ -13,6 +13,16 @@ spec:
       labels:
         app: my-backend-test
     spec:
+      nodeName: k8s-worker1.local
+      # affinity:
+      #   nodeAffinity:
+      #     requiredDuringSchedulingIgnoredDuringExecution:
+      #       nodeSelectorTerms:
+      #       - matchExpressions:
+      #         - key: kubernetes.io/hostname
+      #           operator: In
+      #           values:
+      #           - k8s-worker3
       containers:
       - name: my-backend-test
         image: k8s-master.local:5000/daniele-my-backend-test:latest

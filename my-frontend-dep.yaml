@@ -4,7 +4,7 @@ metadata:
   name: my-frontend-test
   namespace: daniele
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
       app: my-frontend-test
@@ -13,6 +13,7 @@ spec:
       labels:
         app: my-frontend-test
     spec:
+    # nodeName: k8s-worker1.local
       containers:
       - name: my-frontend-test
         image: k8s-master.local:5000/daniele-my-frontend-test:latest

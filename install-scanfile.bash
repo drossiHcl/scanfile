@@ -1,4 +1,4 @@
-# scanfile install
+#!/usr/bin/env bash
 
 cd $SCANFILE_BASEDIR
 
