@@ -13,26 +13,26 @@ spec:
       labels:
         app: my-fsscan-test
     spec:
-      nodeName: k8s-worker1.local
-      # affinity:
-      #   nodeAffinity:
-      #     requiredDuringSchedulingIgnoredDuringExecution:
-      #       nodeSelectorTerms:
-      #       - matchExpressions:
-      #         - key: kubernetes.io/hostname
-      #           operator: In
-      #           values:
-      #           - k8s-worker3
+      # nodeName: k8s-worker3
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                - k8s-worker1.local
       containers:
       - name: my-fsscan-test
         image: k8s-master.local:5000/daniele-my-fsscan-test:latest
         ports:
         - containerPort: ${GRPC_SERVER_PORT}
         volumeMounts:
-        - name: scanfile-data
-          mountPath: /app/myData/scanfile
-        - name: scanfile-env
-          mountPath: /app/data
+          - mountPath: /app/myData/scanfile
+            name: my-fsscan-pv-data
+          - mountPath: /app/data
+            name: my-fsscan-pv-env
         resources:
           requests:
             memory: "64Mi"
@@ -44,10 +44,10 @@ spec:
         - configMapRef:
             name: my-scanfile-config
       volumes:
-      - name: scanfile-data
-        hostPath:
-          path: ${SCANFILE_BASEDIR}myData/scanfile
-      - name: scanfile-env
-        hostPath:
-          path: ${SCANFILE_BASEDIR}scanfile/data
+        - name: my-fsscan-pv-data
+          persistentVolumeClaim:
+            claimName: scanfile-data-daniele-pvclaim
+        - name: my-fsscan-pv-env
+          persistentVolumeClaim:
+            claimName: scanfile-env-daniele-pvclaim
         

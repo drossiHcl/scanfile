@@ -4,7 +4,7 @@ cd $SCANFILE_BASEDIR/myData/scanfile
 
 for ((i = 1 ; i < ($TEST_NUM+1) ; i++ ));
 do
-    for ((j = 1 ; j < 1 ; j++ ));
+    for ((j = 1 ; j < 2 ; j++ ));
     do
         echo "$i $j";
         rm -r textFiles_input/*.*;

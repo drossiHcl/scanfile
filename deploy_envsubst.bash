@@ -5,6 +5,7 @@ kubectl apply -f my-frontend-hpa.yaml
 kubectl apply -f my-fsscan-hpa.yaml
 kubectl apply -f my-scanfile-configmap.yaml
 kubectl apply -f my-scanfile-secret.yaml
+kubectl apply -f my-persistentVolume.yaml
 envsubst < my-backend-dep.yaml | kubectl apply -f -
 sleep 1
 envsubst < my-backend-svc.yaml | kubectl apply -f -
